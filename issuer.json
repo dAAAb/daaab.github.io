@@ -2,7 +2,7 @@
   "publicKey": [
     {
       "id": "ecdsa-koblitz-pubkey:16irEyBpZNRW3JV3gnnM3icusn4FWAetTD", 
-      "created": "2017-10-28T02:23:56.107151+00:00"
+      "created": "2018-10-28T16:56:18.702999+00:00"
     }
   ], 
   "revocationList": "https://daaab.github.io/revocation-list.json", 
