@@ -61,7 +61,7 @@
           <span class="show-seed">Seeding </span>
           <code>
             <!-- Informative link to the torrent file -->
-            <a id="torrentLink" href="https://gateway.ipfs.io/ipfs/QmP62Jx37wKEsV6SWbX23nSTT3wc2tK4UgXwhAdQshN8v7/">TheLastThieves.torrent</a>
+            <a id="torrentLink" href="https://gateway.ipfs.io/ipfs/QmbM4JAWtgymtroCEGxgJdZsEBMt9jqmc8dM1AJGBv4qaE/">TheLastThieves.torrent</a>
           </code>
           <span class="show-leech"> from </span>
           <span class="show-seed"> to </span>
@@ -83,7 +83,7 @@
     <script src="http://momentjs.com/downloads/moment.min.js"></script>
 
     <script>
-      var torrentId = 'https://gateway.ipfs.io/ipfs/QmP62Jx37wKEsV6SWbX23nSTT3wc2tK4UgXwhAdQshN8v7/'
+      var torrentId = 'https://gateway.ipfs.io/ipfs/QmbM4JAWtgymtroCEGxgJdZsEBMt9jqmc8dM1AJGBv4qaE/'
 
       var client = new WebTorrent()
 
@@ -102,7 +102,7 @@
 
         // Torrents can contain many files. Let's use the .mp4 file
         var file = torrent.files.find(function (file) {
-          return file.name.endsWith('.mp4')
+          return file.name.endsWith('.gif')
         })
 
         // Stream the file in the browser
