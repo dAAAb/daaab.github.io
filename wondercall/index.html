@@ -4,26 +4,31 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-	var roomcode1 ='<img src="https://graph.facebook.com/1324335231/picture?width=500&amp;height=500" alt="" width="157" height="153">';
-    $('#show').click(function() {
-      $('.menu').toggle("slide");
-	  var roomobj1;
-	  if(roomobj1){
-	  	$('#room1').replaceWith(roomcode1);
-		roomobj1 = null;
-	  } else{
-		  roomobj1 = $('#room1').detach();
-	  }
-	  //$('#room1').replaceWith(roomcode1);
+    $('#show1').click(function() {
+      $('.room1').toggle("slide");
+    });
+    $('#show2').click(function() {
+      $('.room2').toggle("slide");
+    });
+    $('#show3').click(function() {
+      $('.room3').toggle("slide");
     });
 });
 </script>
 </head>
 <body>
 
-<div id="show">Click to Show/ Hide div</div>
- <div class="menu" style="display: none;">
-   <iframe id="room1" src="https://tico.chat/powercall?room=NTUTBR19863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>
+<div id="show1"><a href="#"><h1>進入1號討論室</h1></a></div>
+ <div class="room1" style="display: none;">
+   <iframe src='https://tico.chat/powercall?room=NTUTBR19863&entry=wondercall'width='1200'height='600'frameborder='0'allow='autoplay;encrypted-media;camera;microphone'allowfullscreen></iframe>
  </div>
+ <div id="show2"><a href="#"><h1>進入2號討論室</h1></a></div>
+  <div class="room2" style="display: none;">
+    <iframe src='https://tico.chat/powercall?room=NTUTBR29863&entry=wondercall'width='1200'height='600'frameborder='0'allow='autoplay;encrypted-media;camera;microphone'allowfullscreen></iframe>
+  </div>
+  <div id="show3"><a href="#"><h1>進入3號討論室</h1></a></div>
+   <div class="room3" style="display: none;">
+     <iframe src='https://tico.chat/powercall?room=NTUTBR39863&entry=wondercall'width='1200'height='600'frameborder='0'allow='autoplay;encrypted-media;camera;microphone'allowfullscreen></iframe>
+   </div>
 </body>
 </html>
