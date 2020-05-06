@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var apnd ='<img src="https://graph.facebook.com/1324335231/picture?width=500&amp;height=500" alt="" width="157" height="153">';
     $('#show').click(function() {
       $('.menu').toggle("slide");
-	  $('.menu').append(apnd);
+	  $('.menu').replaceWith(apnd);
     });
 });
 </script>
