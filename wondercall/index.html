@@ -4,9 +4,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-	var roomcode1 = '<iframe src="https://tico.chat/powercall?room=NTUTBR19863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
-	var roomcode2 = '<iframe src="https://tico.chat/powercall?room=NTUTBR29863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
-	var roomcode3 = '<iframe src="https://tico.chat/powercall?room=NTUTBR39863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode1 = '<iframe class="room1open"  src="https://tico.chat/powercall?room=NTUTBR19863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode2 = '<iframe class="room2open"  src="https://tico.chat/powercall?room=NTUTBR29863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode3 = '<iframe class="room3open"  src="https://tico.chat/powercall?room=NTUTBR39863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
     $('#show1').click(function() {
 	  $('.room1').replaceWith(roomcode1);
       $('.room1').toggle("slide");
@@ -19,18 +19,31 @@ $(document).ready(function(){
 	  $('.room3').replaceWith(roomcode3);
       $('.room3').toggle("slide");
     });
+	//關閉
+    $('#close1').click(function() {
+	  $('.room1open').toggle("slide");
+	  $('.room1open').replaceWith('<div class="room1" style="display: none;">');
+    });
+    $('#close2').click(function() {
+	  $('.room2open').toggle("slide");
+	  $('.room2open').replaceWith('<div class="room2" style="display: none;">');
+    });
+    $('#close3').click(function() {
+	  $('.room3open').toggle("slide");
+	  $('.room3open').replaceWith('<div class="room3" style="display: none;">');
+    });
 });
 </script>
 </head>
 <body>
 
-<div id="show1"><a href="#"><h1>進入1號討論室</h1></a></div>
+<div id="show1"><a href="#"><h1>進入1號討論室</h1></a></div><div id="close1"><a href="#"><h3>關閉</h3></a></div>
  <div class="room1" style="display: none;">
  </div>
- <div id="show2"><a href="#"><h1>進入2號討論室</h1></a></div>
+ <div id="show2"><a href="#"><h1>進入2號討論室</h1></a></div><div id="close2"><a href="#"><h3>關閉</h3></a></div>
   <div class="room2" style="display: none;">
   </div>
-  <div id="show3"><a href="#"><h1>進入3號討論室</h1></a></div>
+  <div id="show3"><a href="#"><h1>進入3號討論室</h1></a></div><div id="close3"><a href="#"><h3>關閉</h3></a></div>
    <div class="room3" style="display: none;">
    </div>
 </body>
