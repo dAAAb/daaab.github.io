@@ -7,6 +7,14 @@ $(document).ready(function(){
 	var roomcode1 = '<iframe class="room1open"  src="https://tico.chat/powercall?room=NTUTBR19863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
 	var roomcode2 = '<iframe class="room2open"  src="https://tico.chat/powercall?room=NTUTBR29863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
 	var roomcode3 = '<iframe class="room3open"  src="https://tico.chat/powercall?room=NTUTBR39863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode4 = '<iframe class="room4open"  src="https://tico.chat/powercall?room=NTUTBR49863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode5 = '<iframe class="room5open"  src="https://tico.chat/powercall?room=NTUTBR59863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode6 = '<iframe class="room6open"  src="https://tico.chat/powercall?room=NTUTBR69863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode7 = '<iframe class="room7open"  src="https://tico.chat/powercall?room=NTUTBR79863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode8 = '<iframe class="room8open"  src="https://tico.chat/powercall?room=NTUTBR89863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode9 = '<iframe class="room9open"  src="https://tico.chat/powercall?room=NTUTBR99863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	var roomcode10 = '<iframe class="room10open"  src="https://tico.chat/powercall?room=NTUTBR109863&entry=wondercall"width="1200"height="600"frameborder="0"allow="autoplay;encrypted-media;camera;microphone"allowfullscreen></iframe>';
+	
     $('#show1').click(function() {
 	  $('.room1').replaceWith(roomcode1);
       $('.room1').toggle("slide");
@@ -18,6 +26,34 @@ $(document).ready(function(){
     $('#show3').click(function() {
 	  $('.room3').replaceWith(roomcode3);
       $('.room3').toggle("slide");
+    });
+    $('#show4').click(function() {
+	  $('.room4').replaceWith(roomcode4);
+      $('.room4').toggle("slide");
+    });
+    $('#show5').click(function() {
+	  $('.room5').replaceWith(roomcode5);
+      $('.room5').toggle("slide");
+    });
+    $('#show6').click(function() {
+	  $('.room6').replaceWith(roomcode6);
+      $('.room6').toggle("slide");
+    });
+    $('#show7').click(function() {
+	  $('.room7').replaceWith(roomcode7);
+      $('.room7').toggle("slide");
+    });
+    $('#show8').click(function() {
+	  $('.room8').replaceWith(roomcode8);
+      $('.room8').toggle("slide");
+    });
+    $('#show9').click(function() {
+	  $('.room9').replaceWith(roomcode9);
+      $('.room9').toggle("slide");
+    });
+    $('#show10').click(function() {
+	  $('.room10').replaceWith(roomcode10);
+      $('.room10').toggle("slide");
     });
 	//關閉
     $('#close1').click(function() {
@@ -32,19 +68,69 @@ $(document).ready(function(){
 	  $('.room3open').toggle("slide");
 	  $('.room3open').replaceWith('<div class="room3" style="display: none;">');
     });
+    $('#close4').click(function() {
+	  $('.room4open').toggle("slide");
+	  $('.room4open').replaceWith('<div class="room4" style="display: none;">');
+    });
+    $('#close5').click(function() {
+	  $('.room5open').toggle("slide");
+	  $('.room5open').replaceWith('<div class="room5" style="display: none;">');
+    });
+    $('#close6').click(function() {
+	  $('.room6open').toggle("slide");
+	  $('.room6open').replaceWith('<div class="room5" style="display: none;">');
+    });
+    $('#close7').click(function() {
+	  $('.room7open').toggle("slide");
+	  $('.room7open').replaceWith('<div class="room6" style="display: none;">');
+    });
+    $('#close8').click(function() {
+	  $('.room8open').toggle("slide");
+	  $('.room8open').replaceWith('<div class="room7" style="display: none;">');
+    });
+    $('#close9').click(function() {
+	  $('.room9open').toggle("slide");
+	  $('.room9open').replaceWith('<div class="room8" style="display: none;">');
+    });
+    $('#close10').click(function() {
+	  $('.room10open').toggle("slide");
+	  $('.room10open').replaceWith('<div class="room10" style="display: none;">');
+    });
+	
 });
 </script>
 </head>
 <body>
 
-<div id="show1"><a href="#"><h1 style=" font-size: 100px; color: black; ">進入1號討論室</h1></a></div><div id="close1"><a href="#"><h3>關閉</h3></a></div>
- <div class="room1" style="display: none;">
+<div id="show1"><a href="#show1"><h1 style=" font-size: 100px; color: black; ">進入1號討論室</h1></a></div><div id="close1"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room1" style="display: none;">
+</div>
+<div id="show2"><a href="#show2"><h1 style=" font-size: 100px; color: black; ">進入2號討論室</h1></a></div><div id="close2"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room2" style="display: none;">
+</div>
+<div id="show3"><a href="#show3"><h1 style=" font-size: 100px; color: black; ">進入3號討論室</h1></a></div><div id="close3"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room3" style="display: none;">
+</div>
+<div id="show4"><a href="#show4"><h1 style=" font-size: 100px; color: black; ">進入4號討論室</h1></a></div><div id="close4"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room4" style="display: none;">
+</div>
+<div id="show5"><a href="#show5"><h1 style=" font-size: 100px; color: black; ">進入5號討論室</h1></a></div><div id="close5"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room5" style="display: none;">
+</div>
+<div id="show6"><a href="#show6"><h1 style=" font-size: 100px; color: black; ">進入6號討論室</h1></a></div><div id="close6"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room6" style="display: none;">
+</div>
+<div id="show7"><a href="#show7"><h1 style=" font-size: 100px; color: black; ">進入7號討論室</h1></a></div><div id="close7"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room7" style="display: none;">
+</div>
+<div id="show8"><a href="#show8"><h1 style=" font-size: 100px; color: black; ">進入8號討論室</h1></a></div><div id="close8"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room8" style="display: none;">
+</div>
+<div id="show9"><a href="#show9"><h1 style=" font-size: 100px; color: black; ">進入9號討論室</h1></a></div><div id="close9"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room9" style="display: none;">
+</div>
+<div id="show10"><a href="#show10"><h1 style=" font-size: 100px; color: black; ">進入10號討論室</h1></a></div><div id="close10"><a href="#"><h3 style="">關閉</h3></a></div>
+<div class="room10" style="display: none;">
  </div>
- <div id="show2"><a href="#"><h1 style=" font-size: 100px; color: black; ">進入2號討論室</h1></a></div><div id="close2"><a href="#"><h3>關閉</h3></a></div>
-  <div class="room2" style="display: none;">
-  </div>
-  <div id="show3"><a href="#"><h1 style=" font-size: 100px; color: black; ">進入3號討論室</h1></a></div><div id="close3"><a href="#"><h3>關閉</h3></a></div>
-   <div class="room3" style="display: none;">
-   </div>
 </body>
 </html>
