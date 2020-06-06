@@ -40,7 +40,7 @@
                         <option value="en-GB">English - GB</option>
                         <option value="en-IN">English - IN</option>
                         <option value="en-NZ">English - NZ</option>
-                        <option value="en-US">English - US</option>
+                        <option value="en-US" selected="selected">English - US</option>
                         <option value="es-ES">Spanish - ES</option>
                         <option value="es-MX">Spanish - MX</option>
                         <option value="fi-FI">Finnish - FI</option>
@@ -59,7 +59,7 @@
                         <option value="sv-SE">Swedish - SE</option>
                         <option value="zh-CN">Chinese - CN</option>
                         <option value="zh-HK">Chinese - HK</option>
-                        <option value="zh-TW" selected="selected">Chinese - TW</option>
+                        <option value="zh-TW">Chinese - TW</option>
                     </select>
                 </td>
             </tr>
@@ -67,11 +67,11 @@
                 <td align="right">Region:</td>
                 <td align="left">
                     <select id="regionOptions">
-                        <option value="westus">West US</option>
+                        <option value="westus" selected="selected">West US</option>
                         <option value="westus2">West US2</option>
                         <option value="eastus">East US</option>
                         <option value="eastus2">East US2</option>
-                        <option value="eastasia" selected="selected">East Asia</option>
+                        <option value="eastasia">East Asia</option>
                         <option value="southeastasia">South East Asia</option>
                         <option value="northeurope">North Europe</option>
                         <option value="westeurope">West Europe</option>
@@ -82,8 +82,8 @@
                 <td align="right">Format:</td>
                 <td align="left">
                     <select id="formatOptions">
-                        <option value="Simple">Simple Result</option>
-                        <option value="Detailed" selected="selected">Detailed Result</option>
+                        <option value="Simple" selected="selected">Simple Result</option>
+                        <option value="Detailed">Detailed Result</option>
                     </select>
                 </td>
             </tr>
@@ -91,8 +91,8 @@
                 <td align="right">Input:</td>
                 <td align="left">
                     <select id="inputSource">
-                        <option value="Mic">Microphone</option>
-                        <option value="File" selected="selected">Audio File</option>
+                        <option value="Mic" selected="selected">Microphone</option>
+                        <option value="File">Audio File</option>
                     </select>
                     <select id="microphoneSource" style="display:none">
                     </select>
@@ -112,7 +112,7 @@
                 </td>
             </tr>
             <tr>
-                <td align="right"><b>👉Speech SDK API Continuous Speech Recognition:</b></td>
+                <td align="right"><b>Speech SDK API Continuous Speech Recognition:</b></td>
                 <td>
                     <button id="speechsdkStartContinuousRecognition">startContinuousRecognitionAsync()</button>
                     <button id="speechsdkStopContinuousRecognition" disabled="disabled">STOP
@@ -133,7 +133,7 @@
                         </option>
                         <option value="Microsoft Server Speech Text to Speech Voice (da-DK, HelleRUS)">Danish - DK
                         </option>
-                        <option value="Microsoft Server Speech Text to Speech Voice (de-DE, Hedda)">
+                        <option value="Microsoft Server Speech Text to Speech Voice (de-DE, Hedda)" selected="selected">
                             German - DE</option>
                         <option value="Microsoft Server Speech Text to Speech Voice (en-AU, Catherine)">English - AU
                         </option>
@@ -143,7 +143,7 @@
                         </option>
                         <option value="Microsoft Server Speech Text to Speech Voice (en-IN, Heera, Apollo)">English - IN
                         </option>
-                        <option value="Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)" selected="selected">English - US
+                        <option value="Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)">English - US
                         </option>
                         <option value="Microsoft Server Speech Text to Speech Voice (es-ES, Laura, Apollo)">Spanish - ES
                         </option>
@@ -183,7 +183,7 @@
                         <option value="Microsoft Server Speech Text to Speech Voice (zh-TW, Yating, Apollo)">Chinese -
                             TW</option>
                     </select>
-                    <input id="voiceOutput" type="checkbox">
+                    <input id="voiceOutput" type="checkbox" checked>
                     <label for="voiceOutput">voice output</label>
                 </td>
             </tr>
