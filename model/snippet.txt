@@ -1,4 +1,4 @@
-<model-viewer src="0206-Chef1-Take5.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="0.84" environment-image="music_hall_01_1k.hdr" autoplay auto-rotate camera-orbit="172.1deg 86.84deg 474m" field-of-view="30deg" exposure="2" shadow-softness="1">
+<model-viewer src="0206-Chef1-Take5.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="0.84" environment-image="music_hall_01_1k.hdr" autoplay auto-rotate camera-orbit="379.1deg 88.86deg 473.8m" field-of-view="30deg" exposure="2" shadow-softness="1">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
