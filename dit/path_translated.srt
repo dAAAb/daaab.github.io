@@ -1,0 +1,1044 @@
+0
+00:00:00,000 --> 00:00:00,960
+[SPEAKER_00]:Sound On
+
+1
+00:00:00,251 --> 00:00:00,909
+[SPEAKER_01]:Sound on
+
+2
+00:00:04,520 --> 00:00:12,941
+[SPEAKER_00]:I want to emphasize why there is a global shock because none of us expected Open AI to support all languages
+
+3
+00:00:12,722 --> 00:00:16,873
+[SPEAKER_01]:On Day one, all departments will support it. Really, really, this thing is super scary.
+
+4
+00:00:16,873 --> 00:00:30,356
+[SPEAKER_00]:OK, well, it won’t be like this before, it’s because of the regional language, because you might be thinking about English homework, OK, maybe Chinese is very difficult, and it’s going to take another three years.
+
+5
+00:00:30,018 --> 00:00:34,288
+[SPEAKER_01]:It is supported on Day one, so the language is common. You always think that this is a key, which is good.
+
+6
+00:00:34,288 --> 00:00:54,437
+[SPEAKER_00]:It’s a very important thing, and I hope everyone remembers that it’s the most important thing. You just talked about why you are at a high point now, and the number of fans is very important, because the next step is like you said that the number of people has increased and the content has increased. It is even more difficult to reach the number of one hundred,zero, and the number of your Attention is even more difficult.
+
+7
+00:00:54,437 --> 00:01:13,742
+[SPEAKER_01]:But this is Influential power, right? I agree with this. I agree with this. You won again. I don’t want PK technology innovation and entertainment. All kinds of new and interesting things are in Baobo friends. Hey, did you listen to Baobo friends?
+
+8
+00:00:57,120 --> 00:00:59,297
+[SPEAKER_00]:Right, I agree with this, I agree with this
+
+9
+00:01:15,193 --> 00:01:38,225
+[SPEAKER_01]:Hello, welcome to Baobo. My friend said I am Dr. Gelu Junbao. Oh, today’s episode was so much fun that we haven’t even started recording yet. We’ve been chatting for twenty minutes since we first started chatting about ChadGBT until now. Well, this frenzy of AI or AGI robots or the new generation of AI has swept the world, and it is obvious that it is not over yet or even has not begun yet.
+
+10
+00:01:38,723 --> 00:02:02,224
+[SPEAKER_01]:Before we found Mr. Li Hongyi who explained to us the reasoning behind ChadGBT very carefully and thoroughly. It was well received. If you haven’t listened to it yet, you can go back and listen to the previous episode. The first few episodes are also very exciting. We found this one. Well-known netizen, asexual netizen, came to talk to us about AI. Next, we will continue to pay attention to this issue. Many people said that Baobo, are you talking about blockchain? Everyone got it wrong. Our program is called Baobo. Friends say that technology has
+
+11
+00:02:02,831 --> 00:02:35,949
+[SPEAKER_01]:Sometimes it’s not just talking about technology, it’s just that you’re talking about what my friends say. It just so happens that my friends are very concerned about technology, so we’ll talk about a lot of things about technology, and there’s a lot of things I don’t understand. These people who have been getting to know you for a long time come to chat with us. At present, we want to understand more about the principles behind the future development of ChadGBT and whether there are any opportunities for innovation, whether you are a personal enterprise company brand or The next few episodes of the government will be very interesting, so we are very happy to invite you again today
+
+12
+00:02:36,360 --> 00:03:01,256
+[SPEAKER_01]:The co-founder of iCook and INSIGHT is currently the co-host of the Traffic Jam Podcast Xiao Shangnong FOX will come to talk about his poisoning experience on AI and ChadGBT, and as an Internet entrepreneur and a serial entrepreneur, what he thinks about the future of this industry What kind of observations do you have? Let us welcome Xiao Shangnong FOX hello everyone, my name is FOX
+
+13
+00:03:01,796 --> 00:03:18,969
+[SPEAKER_01]:Well, let me start with a brief introduction. FOX is the native online gamer who used to work for the Korean company NHN. What should NHN become in the future?
+
+14
+00:03:14,718 --> 00:03:18,448
+[SPEAKER_00]:He is Never and is actually Chef, the parent company of LINE.
+
+15
+00:03:19,504 --> 00:03:45,626
+[SPEAKER_01]:Are you still together? In fact, I used to work in a company called Sweet Potato Vine and Matsuoka Technology that you only know about after listening to the modem dial. In the past, in the field of online technology games, it can be said that you have traveled around. Web one two three really didn't make up the number of his NFT collection is
+
+16
+00:03:21,722 --> 00:03:24,388
+[SPEAKER_00]:The report may have been dismantled. He is to be dismantled by his independent company.
+
+17
+00:03:46,073 --> 00:04:14,333
+[SPEAKER_01]:One-tenth of my baby's one-tenth is not a lot. Well, this is really the latest thing that I have played with this blockchain DeFi NFT before. It is also very sensitive and I am willing to invest in it. I have received it several times. The short coins are only collected under your reminder. It’s cool to remind each other. In two thousand and nine, I founded the InSight technology blog. Many of you are reading this technology new knowledge in traditional Chinese. The InSight website is working very well now.
+
+18
+00:03:46,443 --> 00:03:47,439
+[SPEAKER_00]:one tenth
+
+19
+00:04:03,217 --> 00:04:05,377
+[SPEAKER_00]:remind each other remind each other
+
+20
+00:04:14,770 --> 00:04:24,210
+[SPEAKER_01]:In two thousand and eighteen, the website InSight was acquired by Keycom.com, and in two thousand and ten, Polydice was founded. I always thought that it was Polydice first and then InSight.
+
+21
+00:04:24,210 --> 00:04:28,884
+[SPEAKER_00]:No Inside is actually written by the first few people, so it is not a company organization. Why?
+
+22
+00:04:28,344 --> 00:04:31,601
+[SPEAKER_01]:Why InSight became MMDays and killed me
+
+23
+00:04:32,192 --> 00:04:59,175
+[SPEAKER_01]:I only had dinner with Friday that day, and I had dinner with Friday later that day. Anyway, in short, ten years ago, Taiwan was talking about this kind of Internet industry, except for Mr.sixApple WatchMr. Jamie, and maybe InSight MMDays There are some others, but these two may be the only ones that have been written together. Then InSight will live and make money, and MMDays will disappear. Ask that Friday what did he say?
+
+24
+00:04:32,225 --> 00:04:35,229
+[SPEAKER_00]:I just told Friday that day, what did I tell Friday later that day?
+
+25
+00:04:39,937 --> 00:04:41,692
+[SPEAKER_00]:A few years ago Taiwan was
+
+26
+00:04:45,050 --> 00:04:45,557
+[SPEAKER_00]:The earliest
+
+27
+00:04:59,175 --> 00:05:00,761
+[SPEAKER_00]:Talk a lot but I can't say much
+
+28
+00:05:01,368 --> 00:05:27,592
+[SPEAKER_01]:Okay, let’s talk about it. After the establishment of Polydice, it launched iCooking in two thousand and eleven. It is the largest lifestyle cooking platform in Taiwan. If you don’t know what to eat for lunch or dinner today, please Google iCook or ask ChetGBT what is iCooking. Share with us More than seven million per month I don’t want to talk about this paragraph, anyway, anyway, there are more than a lot of people now. seven million non-repeating visitors
+
+29
+00:05:23,593 --> 00:05:24,285
+[SPEAKER_00]:people
+
+30
+00:05:28,010 --> 00:05:54,005
+[SPEAKER_01]:The inspiration of Happy Cooking will be acquired again in August two thousand and twenty-two. How old are you? I am very old. I am two years older than me in one thousand, nine hundred and seventy-nine. We were just discussing that I am very old, really, so you sold more than me. The two companies are fine too. I might be able to catch up in another two years. It’s okay. Then I’m going to talk to Fox today. There’s a very important point.
+
+31
+00:05:32,537 --> 00:05:33,768
+[SPEAKER_00]:last august
+
+32
+00:05:39,708 --> 00:05:41,143
+[SPEAKER_00]:We were just talking about how old I am
+
+33
+00:05:54,459 --> 00:06:23,432
+[SPEAKER_01]:From a certain day onwards, every PO article on Facebook is related to AI and has a wide range, including Japanese, English, India, Southeast Asia, humans, machines, tools, etc. It’s Baoshan Baohai. I have a lot of my own attention and observation. Let me first talk about why I entered the right
+
+34
+00:06:00,802 --> 00:06:01,258
+[SPEAKER_00]:follow
+
+35
+00:06:21,947 --> 00:06:50,044
+[SPEAKER_00]:This paragraph is right, right, I actually used Meet Journey in April and May last year, and then Meet Journey might be Beta or Vone or something like that. Anyway, after you go in, this thing won’t work for a long time, but it’s good for a long time, and then I thought It’s okay, so you just introduced it to August and September, and then because I was busy negotiating key expenses and negotiating some acquisitions with other companies, I was busy, so I didn’t pay attention to this matter again. go out in january
+
+36
+00:06:44,593 --> 00:06:45,538
+[SPEAKER_01]:busy
+
+37
+00:06:50,919 --> 00:07:20,045
+[SPEAKER_00]:It’s not November, you see, I’m in the west of the United States, so I went for a twenty-day trip with this family, and I went to play with my wife for twenty days and twenty days. That was the original plan, and I came back around November. Twenty-six, twenty-seven, I remember being very impressed. When I got on the plane, votes had to be counted for the election. The county and mayor had to count the votes. Then I actually counted the votes on the plane, and then I knew who was elected when I landed. After I played it, I went back. Home, I may want to talk about it in the past two days, just play Meet Journey, the new version is out Vfour
+
+38
+00:06:54,077 --> 00:06:54,633
+[SPEAKER_01]:county
+
+39
+00:07:08,403 --> 00:07:09,618
+[SPEAKER_01]:the mayor is counting votes
+
+40
+00:07:14,040 --> 00:07:14,411
+[SPEAKER_01]:scare
+
+41
+00:07:20,500 --> 00:07:33,024
+[SPEAKER_00]:After I came out, I wanted to play it. Wow, I was scared and scared. The details and the level of excitement are a completely different level. And it’s only been five months. I said wow, this is right.
+
+42
+00:07:23,051 --> 00:07:24,266
+[SPEAKER_01]:arrive
+
+43
+00:07:31,995 --> 00:07:40,415
+[SPEAKER_01]:It's an incredible thing. The speed and the magnitude of technological growth are changing too fast. We are very familiar with the growth of the Internet and technology. Those who are familiar with it are shocked.
+
+44
+00:07:39,318 --> 00:08:09,024
+[SPEAKER_00]:Then I came back three days later and Chat TV came on stage oh ok so I played until the first day and it was wow how could this be the first time I felt how could this be and then so I spent the whole December and December I was fascinated by painting, and then I was very fascinated by Meet Journey and freedom. Anyway, did you pay me?
+
+45
+00:07:58,286 --> 00:08:25,725
+[SPEAKER_01]:I’m very confused about Johnny and Zhiqi, anyway, did you pay me in December? I bought my first painting and became Fox No.one. It is also the manufacturer of Only OneNFT. I listed it later. You are Aka Swap.
+
+46
+00:08:09,472 --> 00:08:16,815
+[SPEAKER_00]:Unlimited eradication, so I am very happy. Baobo bought my first painting for dinner in December.
+
+47
+00:08:19,295 --> 00:08:31,732
+[SPEAKER_00]:Yes, yes, yes, NFT collectors, I put it on the store later, you put it on Akaso, yes, then I went to the store anyway, that is a New York abstract painting style, actually I still
+
+48
+00:08:31,142 --> 00:08:37,993
+[SPEAKER_01]:I still think that one is the best so far I'll post the link for the future and post it in the description of this show
+
+49
+00:08:35,073 --> 00:09:01,854
+[SPEAKER_00]:Right, right, right, I think Baobo was the only one who understood what I was doing at that time, and I understood right away. Yes, everyone was still thinking about No.one. Yes, what is No.one? Then Baobo bought it. I really understand that you can’t miss Punk. I’m not going to tell you about science. I think if you listen to the show, you know, for example, Beeple or something like that. They may have a series of boring monkeys or something.
+
+50
+00:08:42,093 --> 00:08:42,617
+[SPEAKER_01]:yes it is
+
+51
+00:08:44,928 --> 00:08:51,999
+[SPEAKER_01]:What is No.one? Then Baobo bought Crypto Punk and can’t miss Fox
+
+52
+00:09:00,993 --> 00:09:22,947
+[SPEAKER_01]:Or when people don’t understand anything, he may have a number or a starting point and he will start to do it. You may be a certain person when you do it before everyone understands it, so you have to do five thousand God? I am now seven thousand, five hundred and seventy-five so you do seventy-five days and then create different styles that
+
+53
+00:09:03,660 --> 00:09:13,346
+[SPEAKER_00]:Yes, if you do, you might be someone
+
+54
+00:09:15,675 --> 00:09:26,998
+[SPEAKER_00]:Is there a break in the middle without you? What’s your current date? So actually, I’ve been doing it for seventy-five days and then maybe three hundred and sixty-five days or something like that. That’s the original setting in my mind. Of course.
+
+55
+00:09:26,998 --> 00:09:30,491
+[SPEAKER_01]:It takes three thousand, six hundred and fifty days for my number one to be popular.
+
+56
+00:09:31,335 --> 00:09:48,514
+[SPEAKER_00]:I don’t have a small goal in mind, so I set a small goal in my heart at the beginning of December and mid-December. What does this small goal mean? I want to know how long it will take to meet Jenny, so the result of my measurement is that there is no bullet. No. sixty
+
+57
+00:09:50,032 --> 00:09:51,905
+[SPEAKER_01]:I also want to accept your No. sixty work, no?
+
+58
+00:09:51,635 --> 00:10:07,497
+[SPEAKER_00]:No, so you can know that from the time we start playing and understand this matter, it is possible to Messing it up really quickly. You may think that this cycle may take three and a half months, etc., but this time it only takes about two months
+
+59
+00:09:58,790 --> 00:10:00,410
+[SPEAKER_01]:really fast you
+
+60
+00:10:07,498 --> 00:10:35,768
+[SPEAKER_01]:Let me interject to say that I am also very impressed. That is to say, when technology was developing in the past, many people suspected that many people would slap you in the face and say that you can’t do this or that. The speed of retracting the hand is much faster than before. Some people say that if you can’t eat ramen, you can eat ramen and you can eat it. Some people say that the eyes are not symmetrical, so they are symmetrical.
+
+61
+00:10:36,252 --> 00:10:57,500
+[SPEAKER_01]:Then, how about this finger? Now it’s getting more and more similar. They say that the posture can’t be selected. There is a control net, and some people say that the control net can only be one person at a time. Now there are many people, and it’s impossible to move. What threeD is that we found it is very similar. The technology of human beings in this part passes a card and then after a pass
+
+62
+00:10:46,952 --> 00:10:50,343
+[SPEAKER_00]:Impossible to move, right to be able to move is me
+
+63
+00:10:57,984 --> 00:11:13,901
+[SPEAKER_01]:Just like Edison lighting a lamp, everything can be powered. You can imagine whether it is possible to use electricity to bake toast, whether it is possible to use electricity to make coffee, and you will think whether it is possible to use electricity. It became like this and someone did it. I think this is terrible.
+
+64
+00:11:13,850 --> 00:11:41,696
+[SPEAKER_00]:It must be a very tone-deep talk. Baobo uses electric lights as a metaphor. We just read an article. I actually posted it on my wall here. All the things we talked about today were posted on my wall in the past. I followed FOX and Facebook, and then there was In fact, a venture capital should be UVC. In their past articles, they talked about the current development process. We have just developed an electric light. After the electric light comes out, we will need a platform next. You need to develop a power plant and power grid
+
+65
+00:11:21,309 --> 00:11:22,811
+[SPEAKER_01]:Track FOX Facebook
+
+66
+00:11:42,498 --> 00:11:56,291
+[SPEAKER_00]:After the power grid, more applications will be generated and then the platform will be changed, so it is an iterative and accelerated process, so what you just said is correct, it is an electric light, we just saw that it is an electric light, and then it will start to iterate and then go up, so it is an opening
+
+67
+00:11:56,291 --> 00:12:20,949
+[SPEAKER_01]:Yes, we may promote the generation of electric intelligence in the Dentsu Marketing and Communication Group in the future, which means that it is not just the hands and feet or the brain. When we think, we will actually make a very large leap forward. In fact, our work, thinking and thinking are related to all life styles. attitude may change the extent of his change
+
+68
+00:12:21,393 --> 00:12:39,380
+[SPEAKER_01]:It will definitely be no less than the invention of the iPhone in two thousand and seven, because it has progressed from feature phone to smart phone, but it has not progressed from writing letters to making calls. I think it is even more like changing from candle oil lamps to electricity generations to electric lights or from
+
+69
+00:12:39,806 --> 00:13:06,247
+[SPEAKER_01]:Rickshaws have progressed to internal combustion engines with oil, so our oil company will make a lot of money, and then there will be the invention of cars, so it will make a very, very large leap forward, so I think it is worth discussing all the time, but today there is a problem. Sorry until now. I wanted to solve the problem when I asked it out, but I had a good chat
+
+70
+00:13:07,039 --> 00:13:34,485
+[SPEAKER_01]:I have been thinking about it, and I believe that people will always see on Facebook or in articles that it is the next generation of AI, Chad GPT's AI, Transformer's AI, or Diffusion's AI. Will it replace our brains? Or replace our hands and feet I'll start with my opinion that's why I'm asking this because there's a big argument at the moment
+
+71
+00:13:35,414 --> 00:14:00,688
+[SPEAKER_01]:Intuitively, it is intuitively felt that he replaces our hands and feet, just like a computer allows us to do less work, our hands don’t have to write so many words, we don’t have to do so many calculations, but many people say that he replaces our brains because he It can help you come up with a lot of ideas at once, but some people say that what he lacks now is that he can’t implement it because you said please disassemble the process of making a cup of coffee
+
+72
+00:14:01,131 --> 00:14:23,474
+[SPEAKER_01]:He can, but he can’t connect to your Nespresso machine, he can’t really make a cup of coffee for you. You say please tell me how to open a restaurant or set up a website and write a program. He can list the program for you. Code, he can tell you where you want to register the website, but he can’t press a button
+
+73
+00:14:24,212 --> 00:14:51,993
+[SPEAKER_01]:This I'm lucky, and then I will help you to go to these, and someone said that the next innovation is that he will connect the API connection, so as long as you have enough APIs, he will directly set up your website for you by pressing a button, he said. What is the name of your website? You can find a credit card and give it to him, and he will do everything for you. From this point of view, he replaces the hand, so whether he replaces the brain or the hands and feet, or what do you think?
+
+74
+00:14:51,993 --> 00:15:20,175
+[SPEAKER_00]:Personally, I don’t think about such issues. I’m very practical. I can use it however I want, but I also agree with what you said just now, that is, I saw a statement because in fact, like all current programming languages, you may use Python. It may be written in Java, or JavaScript, or in a variety of other languages. It doesn’t matter, because it will translate these programming languages by itself. Whether it’s an API or not, it may be one, but there will be one among these programming languages.
+
+75
+00:15:20,932 --> 00:15:44,947
+[SPEAKER_00]:We speak computer language, which is actually too right for Mr. Li Hongyi. I think the episode of Mr. Li Hongyi is really exciting. I personally went to Twitter to add each large size, and then went to the simplified Chinese AI Twitter. This episode is really good
+
+76
+00:15:22,470 --> 00:15:26,874
+[SPEAKER_01]:I liked that episode so much, right Mr. Li Hongyi?
+
+77
+00:15:32,949 --> 00:15:37,117
+[SPEAKER_01]:He's the one who told our audience
+
+78
+00:15:44,947 --> 00:15:46,314
+[SPEAKER_01]:so clearly
+
+79
+00:15:45,622 --> 00:16:07,948
+[SPEAKER_00]:Yes, so it’s the same, that is, the human language may develop an AI language, which uses AI language to correspond to all human languages, and at the same time, it also corresponds to all programming languages. It has crawled all GitHub pairs, so in fact The most oceanic thing is that a set of languages is true, so did you have an API just now? I was actually thinking that what I saw in foreign articles actually meant that Machine can communicate with Machine, so it is
+
+80
+00:16:07,948 --> 00:16:11,998
+[SPEAKER_01]:It's no longer that he's only short of a credit card, right?
+
+81
+00:16:10,884 --> 00:16:19,659
+[SPEAKER_00]:Yes, yes, so this is indeed a Big Idea, but I think it has been completely cleared. I didn’t share it, and I haven’t written it in my Revise.
+
+82
+00:16:19,659 --> 00:16:42,885
+[SPEAKER_01]:I also have some new plans recently, and I used some traditional thinking logic to think about it, but then I suddenly used this cross-language logic to think about it, and then many things became clear. I can’t say what I’m doing, but I can change it to say that you can imagine that if you want to make a website and then you want to make a website to introduce yourself
+
+83
+00:16:43,518 --> 00:17:10,755
+[SPEAKER_01]:Before that, you probably had to figure out who you are first, then you want to know who your target audience is, and then you have to ask him to tell you what the process is and which languages to learn. You may be in a rush mode, but I think now You can almost call what you have, your material, who you are and what you want, and the result is called I want a website to make others think I am amazing
+
+84
+00:17:11,752 --> 00:17:34,985
+[SPEAKER_01]:Basically you put this and then you just give the head and tail to him in the middle and he can be a black box to him and he will create it for you and he will even ask you if you want to start a YouTube website And then, to help you remember everything, he’s right in the middle, and he doesn’t even care if he’s going to produce a robot, or a website, or a YouTube, or a virtual human.
+
+85
+00:17:25,303 --> 00:17:26,518
+[SPEAKER_00]:I don't help you remember everything in the middle
+
+86
+00:17:35,438 --> 00:18:03,795
+[SPEAKER_01]:These technologies used to have a lot of barriers. You may need to learn what VRM, you need to learn Unity, you need to learn Unreal, you need to learn C-Sharp, and then you need a different IDE, and you have a different one. In the future, you basically don’t need it. After so much hard work, he basically helped you put it together. He was connected together. There is mathematics, and his mathematics has improved. There are mathematics, literature, design, engineering, and programming language, right?
+
+87
+00:17:55,138 --> 00:17:55,644
+[SPEAKER_00]:there are pairs
+
+88
+00:18:04,031 --> 00:18:33,022
+[SPEAKER_00]:I very much agree with that, so it is equivalent to I think everyone should stop obsessing about what it can’t do, that is, you have to see what it can do now and then what you want to use it for. I think this is the most important thing to think about because When I was in December, I was thinking about it all over again. I had to read a lot of foreign information, so I highly recommend that the first one is of course to follow Baobai’s twitter on Baopai’s program.
+
+89
+00:18:10,747 --> 00:18:11,034
+[SPEAKER_01]:That
+
+90
+00:18:17,594 --> 00:18:35,587
+[SPEAKER_01]:I think this is the most important thing to think about because I was thinking about it again in December. I have to read a lot of foreign information, so I highly recommend that the first one is of course on the Baobo program. Go up and follow Baobo's twitter yes yes I think
+
+91
+00:18:33,967 --> 00:18:54,465
+[SPEAKER_00]:That’s right, I think that’s why I think the reason why I recommend everyone to go to Twitter is because it’s the first time I saw what Baobo just said. In fact, I told Baobai video a while ago that you have to think about it. It’s two thousand and seven. two thousand and eight is this At different times, Huang Chengxin also said this. This is engraved
+
+92
+00:18:49,965 --> 00:18:52,547
+[SPEAKER_01]:iPhone time it's iPhone time
+
+93
+00:18:55,063 --> 00:19:20,002
+[SPEAKER_00]:OK, so why is this matter so important? Because when Jobs pulled out his iPhone, he was just introducing it. That’s why I have this matter. It will start in the United States and Canada in the next two months, and then it will be in Japan and finally the third wave will come to Taiwan. Yes one has time because it's hardware it has time order but one thing you rarely see is this rollout that shakes the world of course
+
+94
+00:19:20,002 --> 00:19:23,986
+[SPEAKER_01]:In fact, I have an opinion on this point.
+
+95
+00:19:24,528 --> 00:20:01,451
+[SPEAKER_01]:As I said at the beginning, I don’t think he is the iPhone moment. Huang Renxun said this only because it is easier for everyone to understand. Yes, because everyone has forgotten about the earlier things. I think he is the Edison moment. You know that after the Edison moment is successful. After the Edison moment was successful, it was the first time that the entire World Expo was lit up in the World Expo. It was the first time that the world could hold events at night. Since that day, nobles all over the world hoped that their homes had lights. When you think of it as an iPhone, I think you will think of it as small because you will think that I am going to buy an iPhone, am I going to install it?
+
+96
+00:19:30,262 --> 00:19:30,937
+[SPEAKER_00]:because earlier
+
+97
+00:19:36,168 --> 00:19:37,839
+[SPEAKER_00]:after success
+
+98
+00:20:01,982 --> 00:20:17,444
+[SPEAKER_01]:App, but you have to understand that when the iPhone was first launched, he shouted that I will have a one% market share within a year, and no one believed him. How could this be the moment of the iPhone? Now that AI is launched, everyone thinks it will be the next ten% market share so it's not an iPhone moment at all
+
+99
+00:20:17,445 --> 00:20:22,204
+[SPEAKER_00]:But you can imagine ten years ago, ten years from now, everyone will have a smartphone
+
+100
+00:20:22,625 --> 00:20:37,914
+[SPEAKER_01]:No, but I think this pattern is wrong because the iPhone actually sold better than everyone imagined at the beginning, but worse than Apple imagined, and the iPhone didn’t have an App Store at the beginning and couldn’t be released.
+
+101
+00:20:36,007 --> 00:20:51,448
+[SPEAKER_00]:That’s why I said it’s the iPhone moment, so I said it’s the iPhone moment. You should say it’s the iPhone four moment. It’s the iPhone four. It was just launched in the first three months, but the iteration speed is much faster than you think. In the first month, everyone did not figure out
+
+102
+00:20:41,492 --> 00:20:41,947
+[SPEAKER_01]:you should
+
+103
+00:20:51,448 --> 00:21:21,259
+[SPEAKER_01]:What can he do? I think we need to find time to debate this question. The reason is that when your iPhone is launched for half a year, you go to the street and shout who will believe it, but the time dimension is different because the six months at that time may be six months now. three months is okay, because I don’t think I will pay the bill. Now I go to the street and shout, who thinks that AI will fetch it? It’s sixty days before your No. sixty work
+
+104
+00:20:54,553 --> 00:20:55,025
+[SPEAKER_00]:ok you want
+
+105
+00:21:13,065 --> 00:21:17,537
+[SPEAKER_00]:Called you a month ago, before Lao Gao and Wu Danru
+
+106
+00:21:21,691 --> 00:21:25,519
+[SPEAKER_01]:If you shout on the street, more than half of the people may not think that
+
+107
+00:21:25,046 --> 00:21:39,137
+[SPEAKER_00]:In fact, I shouted in the company two months ago that no one paid attention to me, but now I call someone to take care of you. Yes, I actually bought MeJourney’s corporate version of the company account two months ago for everyone to share, and no one paid attention to me. Did you tell MeJourney that you have a MeJourney account until recently?
+
+108
+00:21:28,303 --> 00:21:29,957
+[SPEAKER_01]:Now call someone to take care of you
+
+109
+00:21:39,137 --> 00:22:28,744
+[SPEAKER_01]:I think you are right about the iPhone moment. Next, I want to ask another question. I have thought about it for a long time. You have been encouraging us to say that because it is the iPhone moment, there are many new opportunities and the threshold for creation is lowered faster. You may even be a college student. For example, I am a Twitter account with only three,zero followers. As long as I do it right, I may change from ten,zero to thirty,zero. If you are a college student, you want a In the past, everyone relied on Angry Bird and Flappy Bird before they became famous. Sudoku I don’t know, but now you have a chance. You can stay up for seven days and you will probably be famous all over the world. That’s the leverage. The rate of return can be very high
+
+110
+00:22:29,487 --> 00:22:55,998
+[SPEAKER_01]:But there is one thing I don’t understand, that is, during this period of time, almost eighty% of the Po posts on my Facebook wall are talking about what he did with GPT today, which saved a lot of time and GPT helped him He drew how many pictures Me Journey helped him with Dudley one and then used ControlNet within three months
+
+111
+00:22:56,446 --> 00:23:13,050
+[SPEAKER_01]:eighty% of my friends on Facebook have become experts in AI tools. What I want to say is that the amount of information explosion on the surface in the next six months to a year will be one billion times that of before.
+
+112
+00:23:13,623 --> 00:23:37,636
+[SPEAKER_01]:The number of startups or content creators, tool makers, and creator Entrepreneurs who think they can make tools and content is probably a thousand times ten thousand times more, and everyone is almost starting from scratch and using the same tools I think From the logic of this big water source theory, now OpenAI
+
+113
+00:23:38,046 --> 00:23:52,247
+[SPEAKER_01]:What about Google AI? They all say this is the best era of entrepreneurs. Hurry up and start a business. I understand that this question can be stopped. Anyway, what I want to ask is whether this is the golden age of entrepreneurs or the worst era.
+
+114
+00:23:44,855 --> 00:23:45,513
+[SPEAKER_00]:i understand this
+
+115
+00:23:52,247 --> 00:24:21,448
+[SPEAKER_00]:Divided into several levels and how long you have been looking at this matter OK Divided into two levels The first is the individual and the company OK good personal If you want to build your own IP now, if you want to have a say in this time Then you at this time, what we actually did three months ago this month is spell books, how to do chant, sorry, Twitter has already cleaned it up in December, people on Twitter can use this to wash it
+
+116
+00:24:12,159 --> 00:24:15,365
+[SPEAKER_01]:how to do it already passed
+
+117
+00:24:22,066 --> 00:24:30,452
+[SPEAKER_00]:Hundreds of thousands of millions of followers are you kidding? I’m telling the truth. I’ve seen several accounts like this, so everyone is actually doing Twitter two months ago
+
+118
+00:24:30,452 --> 00:24:34,755
+[SPEAKER_01]:What Twitter is doing You said the current state of Taiwan's community in the past month but
+
+119
+00:24:32,932 --> 00:24:43,428
+[SPEAKER_00]:So this speed is very fast. Did I mention that it is very fast? In other words, we have been lagging people for two months, so you only see that English becomes
+
+120
+00:24:43,428 --> 00:24:51,326
+[SPEAKER_01]:The gap of these two months was ten years in the previous Internet generation, not so long. A year may be ten months, so Day
+
+121
+00:24:48,187 --> 00:25:00,438
+[SPEAKER_00]:It's not that long a year could be a year so I just why I'm emphasizing something why is there a global shock because none of us expected OpenAI to be full language support
+
+122
+00:25:00,084 --> 00:25:04,438
+[SPEAKER_01]:one is full support, really, really, this thing is super scary OK
+
+123
+00:25:04,438 --> 00:25:17,449
+[SPEAKER_00]:Well, it wouldn’t be like this in the past. It used to be because of the regional language because you might be thinking about English homework. OK, maybe Chinese is very difficult. It will take another three years.
+
+124
+00:25:17,448 --> 00:25:21,566
+[SPEAKER_01]:It will be supported on Day one, so the language is shared. You always think that this is a key, but this is true.
+
+125
+00:25:21,566 --> 00:25:42,002
+[SPEAKER_00]:The level is very important. I hope everyone remembers that it is the most important thing. You just said why you now occupy a high position and have more fans. The number of fans is very important, because what you said next is that the number of people has increased and the content has increased. It will be even more difficult to reach the number of one hundred,zero, and it will be even more difficult for your number of followers, right?
+
+126
+00:25:42,002 --> 00:25:59,704
+[SPEAKER_01]:This is Influential power, right? I agree with this, I agree, you won again, we didn’t want PK, but what I just said is that many people sometimes go to start a business to start a company, but they don’t earn Influential, they want to earn Money. I think this is it's scary for me
+
+127
+00:25:44,499 --> 00:25:46,659
+[SPEAKER_00]:la this i agree with this i agree
+
+128
+00:25:54,152 --> 00:25:54,759
+[SPEAKER_00]:start a company
+
+129
+00:25:58,488 --> 00:26:24,257
+[SPEAKER_00]:I think this is scary, and I have reservations about it. The reason for my reservations is because I keep talking about why I pushed that article. I just talked about electric lights and power grids. Airplanes must be built before there is an airport infrastructure. So you have to Decide what role you want to play in the startup. That is to say, Uber didn't appear in two thousand and eight or two thousand and seven. It didn't appear until two thousand and nine.
+
+130
+00:26:25,168 --> 00:26:55,046
+[SPEAKER_00]:So which app are you going to play Are you going to be Angry Bird or you're going to be Uber it's totally different OK so of course you can be the first social networking site but let's just remember we had Friendster before us we had MySpace but there's only one Facebook now Like that, Google is not the first one, it is the one that survived, so it may not be useful for you to be the first one, but the success rate of the first chance is slightly higher
+
+131
+00:26:55,748 --> 00:27:10,190
+[SPEAKER_00]:So the reason is that there are many layers looking at this whole thing. You can imagine that from two thousand and eight to two thousand and twenty-two, we will have another round. I have already thought about this whole thing in December.
+
+132
+00:27:11,186 --> 00:27:36,998
+[SPEAKER_01]:To sum it up, I think it sounds like it doesn’t matter if you’ve already started a little bit or you actually have zero fans right now. This is your golden seventy-two hours and you can. Lots of text for AI
+
+133
+00:27:35,992 --> 00:27:36,262
+[SPEAKER_00]:exist
+
+134
+00:27:37,657 --> 00:27:45,358
+[SPEAKER_01]:You can stand at a good high point before it becomes a tsunami and overwhelms all the Internet celebrities. Let me give you an example.
+
+135
+00:27:45,358 --> 00:27:57,542
+[SPEAKER_00]:In two thousand and eight and two thousand and nine, you just said that when the App Store came out, a lot of people lived by writing apps. Do you remember that some people became popular because of this, and some people kept making money because of it?
+
+136
+00:27:53,222 --> 00:27:53,458
+[SPEAKER_01]:Then
+
+137
+00:27:57,542 --> 00:28:12,344
+[SPEAKER_01]:Some people will miss it. At that time, you just made a computer app or pressed it, and it turned out a black screen, saying that this is called a mirror, or a lighter, or a lighter. Those who make a lot of money, just press a button and fart, but that’s all. a period of time
+
+138
+00:28:04,832 --> 00:28:10,856
+[SPEAKER_00]:lighter pair or lighter fart farts only give birth to a cow will fart right but
+
+139
+00:28:12,915 --> 00:28:27,950
+[SPEAKER_00]:OK, that’s the same. We saw that in November and December, there was a large number of apps that you feed your head into and help you make one hundred pictures. There are those in suits and clown suits, and you can earn money for it. The window is short, right?
+
+140
+00:28:27,697 --> 00:28:46,226
+[SPEAKER_01]:Yes, so that is to say Influential power, I think it can be done now and the success rate should be quite high. If you do it well, yes, if you want to know how to do it, please ask me. I want to know and we can talk again, but I see that the growth of fans you push is not exponential i you
+
+141
+00:28:35,949 --> 00:28:37,873
+[SPEAKER_00]:Yes if you want to know how to earn us
+
+142
+00:28:39,948 --> 00:28:40,893
+[SPEAKER_00]:talk again
+
+143
+00:28:46,226 --> 00:28:50,951
+[SPEAKER_00]:One is which language you want to operate in and how active you are. I don’t have any
+
+144
+00:28:50,951 --> 00:29:11,586
+[SPEAKER_01]:Don’t be ashamed and understand, well, then you just said that there is nothing you can’t do in terms of personal entrepreneurship, but whether it’s the golden moment or the moment before the tsunami, I don’t know, no one knows, but you can think about two dimensions, that is, who are you? want
+
+145
+00:29:12,029 --> 00:29:32,955
+[SPEAKER_01]:Sell some lifeboats before the tsunami hits or you actually think the tsunami is coming and you think more so you have to collect wood and build a house on the mountain, these two time differences will affect what you do and your results it is possible to be rich but
+
+146
+00:29:33,444 --> 00:29:57,774
+[SPEAKER_01]:Timing has become very important. In fact, I recently taught DAP in a course at National Taiwan University, but we introduced some experiments that hope everyone can use technology to do social good. Then we asked Noah Ye Xianglin to help us with some design, and he was in At the beginning, he said something that I think is great. He said that the next era is actually the era of mechanism design.
+
+147
+00:29:58,257 --> 00:30:15,568
+[SPEAKER_01]:To design a mechanism, you are not making a component or an app. What you have to think about is the whole mechanism. That is to say, I think that if you want to use AI to start a business, you must pay attention to this matter. That is, you want to in the end
+
+148
+00:30:16,067 --> 00:30:31,404
+[SPEAKER_01]:Is it a small solution or does it have a series of mechanisms? Just like what you just said, I can’t express it in words, but it means whether you want to be Angry Bird or Uber. The success of Uber lies in its mechanism. No
+
+149
+00:30:31,884 --> 00:30:59,015
+[SPEAKER_01]:The reason is that it can call a car by pressing a button. It has a very complicated mechanism design in it. Who, how to keep it on board, how to keep it, and how to expand it, and then a whole set of it has been thought out. I think this is if you have heard it outside. This is the best era of AI entrepreneurship. Maybe we can’t deny it now, but there are many details to be clear about timing and mechanism. But you just mentioned one that is very important to the company.
+
+150
+00:30:59,808 --> 00:31:28,416
+[SPEAKER_01]:People also say that this is a crisis for the company, and many people say that this company should not be too nervous, even if there are many small teams that will replace your company. For example, you love cooking, right? A college student and three cobblers make an acook, are you an acook, and then surpass you in terms of traffic within three months? To be honest, if I ask you on the show, is it possible?
+
+151
+00:31:28,936 --> 00:31:55,724
+[SPEAKER_01]:I don't think it will be zero, at least the probability may change from zero to one? I mean, someone's article is all generated by AI, and every comment is generated by AI, so it creates a certain kind of hybrid network effect so it In a short period of time, it has created a growth, whether it is the truth or an illusion, so that everyone can see it
+
+152
+00:31:35,043 --> 00:31:43,953
+[SPEAKER_00]:That’s what I mean, if someone comes back to do the same problem again, use AI to do every
+
+153
+00:31:56,138 --> 00:32:22,171
+[SPEAKER_01]:As far as I think this possibility exists now, for enterprises, but it may appear soon, there will be other acook bcook ccook, so people will not see these things soon, so companies that are steadily advancing will eventually survive in the next period of time Come down but I can't figure out whether it's the most dangerous moment or it's the most time to keep pace
+
+154
+00:32:22,595 --> 00:32:26,226
+[SPEAKER_01]:The time to move forward at your own speed is different for each company
+
+155
+00:32:25,145 --> 00:32:51,718
+[SPEAKER_00]:The situation of every company is different, every company, every industry, every company has different situations It’s a twenty-four-hour AI tutor, English tutor, as I said, that is to say, you take this, is this the real son of OpenAI, the direct descendant of his investment?
+
+156
+00:32:52,239 --> 00:33:17,484
+[SPEAKER_00]:Then he got the best model, then he said that you pick up your mobile phone and you are him. For example, he asked you to read ten sentences a day. Today, you have ten sentences in a business conversation, and you read it according to him. He will use AI to judge whether your accent is correct or not, then give you the green light, and then you will challenge this thing every day for thirty days, and your English will improve. Then he will do it, import AI, and have a person talk to you in business
+
+157
+00:33:17,950 --> 00:33:42,145
+[SPEAKER_00]:Then use AI to talk to you and imagine that TrapGP chats with you in English and can correct your tone and correct your grammar. It only costs two hundred Taiwan dollars a month. This is similar to what we know. For example, TwitterAVC takes a month. I don’t know him. How much money may cost ten,zero yuan a month, this thing only costs two hundred yuan a month, this is an invincible and urgent company
+
+158
+00:33:42,770 --> 00:33:49,503
+[SPEAKER_00]:You can say that I will not be one hundred% accepted by everyone, but maybe as long as fifty% of you are replaced
+
+159
+00:33:49,988 --> 00:34:18,487
+[SPEAKER_01]:But I think what its co-competence has become, do you know? Its core competitiveness and level have changed. It is the son of open AI. So if there is any other company that wants to talk about it today, my name is talk.com I do exactly the same thing. If it is not the son of open AI, the so-called open AI is the company that makes chad gpt because it has the right to get the latest version of chad gpt. When we can't help it, it may have been used when we were still playing three.five. four or four.five
+
+160
+00:34:19,161 --> 00:34:37,951
+[SPEAKER_01]:I can understand that this is a huge thing, but there are not so many of us in Taiwan, and it is difficult for us to become the son of open AI. I mean, this story tells us that for many companies, it is Doomsday
+
+161
+00:34:29,683 --> 00:34:31,353
+[SPEAKER_00]:so
+
+162
+00:34:37,952 --> 00:34:51,941
+[SPEAKER_00]:Look at the industry and see what you do. Today, for example, it is the printing industry. Today, today’s OpenAI or MeetGenuine activities are all about printing all over the world. This is a way to open up access to the world. This is
+
+163
+00:34:51,941 --> 00:35:19,277
+[SPEAKER_01]:It’s not the same. Wait a minute. Here’s another question. I think the examples you gave have further deepened my latest prediction. Remember, we are now recording in two thousand and twenty-three. March two, my prediction The next so-called giant will be ten times bigger than the Facebook hegemony or Apple hegemony we thought and imagined before.
+
+164
+00:35:19,908 --> 00:35:29,353
+[SPEAKER_01]:If you don’t make an alliance with him, you basically won’t be able to survive. As a result, my opinion is the same as yours. I’ve been inserted now.
+
+165
+00:35:22,704 --> 00:35:25,995
+[SPEAKER_00]:I am now recently I originally thought the same as you I was about a month ago
+
+166
+00:35:29,150 --> 00:35:49,400
+[SPEAKER_00]:Now it's us Now you can see it's getting faster and faster If these LLMs can print on your computer Everyone has the same computing power Better computing power A better model can do this on your PC It's a chaotic world, so I'll give you a disproof of what you just predicted, I've thought about it
+
+167
+00:35:46,700 --> 00:36:13,228
+[SPEAKER_01]:Anyway, you have thought about it, anyway, have you thought about it, because I was just thinking about the example you just mentioned, no matter what it is, it is just pushed back like this today, for example, you said that the company that printed it made it into a PDF The company makes a business card, and he is still a person built in MeJourney who will make money. He is OpenAI, which can be exported to PDF with one click. The company will make money. If you don’t connect with him, you are secret.
+
+168
+00:35:53,822 --> 00:35:55,172
+[SPEAKER_00]:it's just like this today
+
+169
+00:36:02,681 --> 00:36:04,250
+[SPEAKER_00]:Then it's built in
+
+170
+00:36:08,503 --> 00:36:09,920
+[SPEAKER_00]:Companies that can be imported as PDF
+
+171
+00:36:12,418 --> 00:36:19,421
+[SPEAKER_00]:It’s off, you can connect to StableDiffusion, everyone can upload their own StableDiffusion, check it in the past, it’s decentralized
+
+172
+00:36:19,421 --> 00:36:36,617
+[SPEAKER_01]:So it’s no wonder that OpenAI is desperately rushing all the way because he also predicted that he doesn’t want to be disproved by you, right? So he wants to take my route, that is, he wants to become a company that is ten times as fast as Google in the shortest possible time.
+
+173
+00:36:36,735 --> 00:36:41,004
+[SPEAKER_00]:So it has to be now you see our latest news today is that it has dropped ten times
+
+174
+00:36:41,004 --> 00:36:53,492
+[SPEAKER_01]:One tenth, my God, if you want to make a fraudulent robot in the past, it will cost you one million yuan, and now it only costs one hundred thousand yuan. block change i am
+
+175
+00:36:47,838 --> 00:36:49,931
+[SPEAKER_00]:It cost a million, now it only costs a hundred thousand
+
+176
+00:36:53,492 --> 00:37:04,005
+[SPEAKER_00]:A thousand bucks I was awake at exactly three o'clock today and I saw his post from Stay At Home and I said wow because I went to bed early because I was tired but I was also
+
+177
+00:36:59,921 --> 00:37:26,484
+[SPEAKER_01]:Because I go to bed early because I'm tired but oh man it's a mess I'm really scared I'll tell you what a level of exaggeration it is because I have an API in ChairGBT and then I apply and then I I used a lot of network processes and then I made a LINE robot and asked my own housekeeper if he had any questions, and then I accidentally streamed it out, so it is now shared by hundreds of people
+
+178
+00:37:16,138 --> 00:37:17,268
+[SPEAKER_00]:I don't have much money
+
+179
+00:37:27,186 --> 00:37:39,425
+[SPEAKER_01]:Then you know that my one-month OpenAI is ChairGBT’s API usage fee because it uses the service behind it, isn’t it the superficial service?
+
+180
+00:37:39,898 --> 00:37:42,345
+[SPEAKER_00]:Just wanted to guess five hundred Taiwan dollars and wait
+
+181
+00:37:41,838 --> 00:37:55,001
+[SPEAKER_01]:Yes, then I was thinking that if a hundred people have already spent ten dollars, I already think it’s too cheap. It’s even cheaper. One-tenth of it is equivalent to one hundred people spending one dollar, which I originally had
+
+182
+00:37:52,622 --> 00:38:20,990
+[SPEAKER_00]:So I used one dollar for one hundred people. I was already doing some things internally. I had already made a budget. My budget was originally one hundred million. I had to think about it. Let me tell you that the reason why I don’t recommend prophecy is because I think I will be slapped in the face by the latest thing in two weeks to a month. You can’t imagine how fast it can reduce the computing power by ten times and preempt it. Spend
+
+183
+00:38:21,511 --> 00:38:38,943
+[SPEAKER_00]:Another thing is that if you go to see SendOtherment now, it will push Wallcoin in two thousand and twenty-one. Use the blockchain to make Wallcoin. Today I posted this thing. It is ready for UBI and it uses the blockchain and uses it. i scan your iris i know scan your eyes
+
+184
+00:38:26,557 --> 00:38:27,654
+[SPEAKER_01]:Made precious gold with blockchain
+
+185
+00:38:37,998 --> 00:38:43,145
+[SPEAKER_01]:Scan eyeballs so it's scanning eyeballs to let you take coins
+
+186
+00:38:43,145 --> 00:38:47,246
+[SPEAKER_00]:Your Mint is not tied to your wallet, I just tied your eyes, look
+
+187
+00:38:46,622 --> 00:38:53,507
+[SPEAKER_01]:Then if this company doesn’t do evil in its logo and its company regulations, I will be very scared.
+
+188
+00:38:53,507 --> 00:39:15,951
+[SPEAKER_00]:It’s actually quite radical. You see, two years ago, I didn’t understand what it was doing, and I couldn’t get the coins anyway. I struggled with it for a long time, and it seemed like Mint couldn’t do anything about it. I remember it seems that the block lion or someone posted an article saying that we pay attention to fairness. Sorry, I think SendOtherment has considered this matter
+
+189
+00:38:56,105 --> 00:38:57,303
+[SPEAKER_01]:you see it was already two years ago
+
+190
+00:39:00,189 --> 00:39:00,341
+[SPEAKER_01]:I
+
+191
+00:39:16,434 --> 00:39:32,724
+[SPEAKER_01]:Understood, I was just thinking about this era where winners take all ten times the giants. You have surpassed me. You have surpassed me by a month, but SendUltimate may surpass you by ten months. I think five years is not it.
+
+192
+00:39:30,446 --> 00:39:59,668
+[SPEAKER_00]:I think in five to five years, you can imagine that for example, we just talked about Jasper’s AI. It started to use GPT-three.zero a year ago and started to do copywriting. It’s business, it raised a lot of money, and then I don’t know ten. Tens of thousands of users or hundreds of thousands of users are suddenly overwhelmed by GPT-three.zero, but anyway continue to pay, I believe it is because it will decline, but the speed may not be so fast, but
+
+193
+00:39:52,856 --> 00:39:56,417
+[SPEAKER_01]:Now it is declared that everyone still pays for it, I believe it is because it will
+
+194
+00:40:00,070 --> 00:40:13,443
+[SPEAKER_00]:I mean, if you were an alumnus of YC, you would have understood this matter more than a year ago, and if you were SendOtherment himself, it must have been very close to people like Elon Musk five years ago
+
+195
+00:40:13,443 --> 00:40:33,791
+[SPEAKER_01]:The whole Master Plan is still very important to chat with FOX today. I decided to revise my prediction. I think the definition of a giant will change OK. I have no opinion on this. Its scale and its final appearance may be different from what we used to. The form of all enterprises that are recognized may be a little different
+
+196
+00:40:34,440 --> 00:40:51,497
+[SPEAKER_01]:This is my prophecy. You see, even non-profit organizations can use some people who are paid by it. These people are Elon Musk, who invested in him, yes, the president of Microsoft, yes.
+
+197
+00:40:40,393 --> 00:40:43,785
+[SPEAKER_00]:The special architecture turns it into a leased out pair and
+
+198
+00:40:48,982 --> 00:41:18,801
+[SPEAKER_00]:It’s people like Bill Gates, the president of Microsoft, so I think it’s as if our news about this matter is three months behind Silicon Valley and the world for three months. Silicon Valley itself is divided into the level of alumni and the level of these top figures. The top people may have figured it out five years ago, but they can't predict the speed, so it may have taken them to establish it in two thousand and sixteen and two thousand and seventeen. They worked on it for four or five years, and I didn't
+
+199
+00:41:19,216 --> 00:41:29,786
+[SPEAKER_00]:I have no idea when this artificial intelligence will have a breakthrough. Everyone feels hopeless. Let’s see Siri and Alexa in two thousand and eighteen and two thousand and nineteen. These are him.
+
+200
+00:41:26,512 --> 00:41:36,891
+[SPEAKER_01]:These are mentally handicapped, so let me guess, you think the success of ChairGBT is not an accident at all, maybe it is OK at all
+
+201
+00:41:36,890 --> 00:41:39,962
+[SPEAKER_00]:May know but I don't know what this moment is
+
+202
+00:41:39,962 --> 00:42:07,702
+[SPEAKER_01]:I think today is really a bit overdue. I am afraid that everyone will need some time to digest, but in the end we will have a more entertaining discussion. That is, the development history of our AI in Taiwan that you just mentioned has two important aspects. One is the moment of Wu Danru and the other is the moment of Lao Gao, so we are now in the post-Lao Gao era, so I think this topic may have already begun, and more people will be discussing it
+
+203
+00:41:58,929 --> 00:42:00,363
+[SPEAKER_00]:Is the old high-level
+
+204
+00:42:08,253 --> 00:42:37,270
+[SPEAKER_01]:Of course, it is taken for granted that many people will be thinking about how AI will develop in the future. Is there some very sci-fi performance? Or I know you are anti-prophetic, but you like watching science fiction and sci-fi movies. Sci-fi movies are also a kind of prediction. Well, so you like to watch Star Trek and then you like to watch Star Wars The Mandalorian, and you should have caught up with the first episode of the third season by now, so I just want to know
+
+205
+00:42:34,974 --> 00:42:35,177
+[SPEAKER_00]:right
+
+206
+00:42:37,865 --> 00:43:04,783
+[SPEAKER_01]:You have spent so much time, you are an entrepreneur yourself, and now you are still running these businesses, with a large scale and millions of people, and then you are a person who is willing to stay up all night to study AI for a whole month, and then several months. For those who think about the development of AI, I would like to ask you, do you have any arguments or ideas?
+
+207
+00:42:47,985 --> 00:42:48,947
+[SPEAKER_00]:no no no me
+
+208
+00:43:05,207 --> 00:43:34,111
+[SPEAKER_01]:What will happen, everyone, be careful, it’s not going to happen, everyone, don’t make a mistake, it’s just that you have, for example, some people are very scared now, that is to say, this AI will make our students not know how to study and can’t tell whether something is true or false For example, I am very worried that when we are recording now, there may be five% of people in Taiwan who are being scammed, and the people who talk to him are one hundred,zero people who have too high AI.
+
+209
+00:43:30,847 --> 00:43:33,648
+[SPEAKER_00]:percent may be too high too high my percent is one hundred,zero
+
+210
+00:43:34,553 --> 00:43:57,146
+[SPEAKER_01]:one hundred,zero is definitely higher than this. I think it is definitely higher than this, but I may be wrong because everyone was playing with two hundred and sixty,zero people to test which one is real and which one is fake. It is said that the median is ten, that is to say two hundred and sixty,zero people have done it, right? So I thought it would be lower, so maybe I'm pessimistic, but some people will be very worried. There are some things and some people will
+
+211
+00:43:47,925 --> 00:43:48,448
+[SPEAKER_00]:ten la
+
+212
+00:43:57,793 --> 00:44:17,266
+[SPEAKER_01]:I am optimistic that AI can work for us in the future. We just drink tea and coffee every day. I just need to be a gatekeeper. I am curious if you have some sci-fi ideas. It sounds impossible but It can happen or people think it's sci-fi and it's scary but it won't happen to you
+
+213
+00:44:17,996 --> 00:44:42,873
+[SPEAKER_00]:My personal opinion is that I’ve been watching the first and second episodes of Captain Bikai’s latest season just now, and then I watched the first episode, and then I suddenly realized what this computer in them is doing for me. This thing is actually Now it can be done, that is to say, if you add Churchill to Siri today, you can actually do it. So he might not be able to do it. The sci-fi is already a part of it. I think it is true again. OK.
+
+214
+00:44:21,759 --> 00:44:22,383
+[SPEAKER_01]:low level
+
+215
+00:44:43,398 --> 00:44:48,975
+[SPEAKER_00]:Well, it’s the prophecy you mentioned because all the plots of all sci-fi movies have been predicted
+
+216
+00:44:49,939 --> 00:45:11,912
+[SPEAKER_01]:Then where should we put our mind? Because I know this moment, I am familiar with it, because I also have some ideas. After I messaged Fox privately, Fox said you should stop making trouble. There are at least five solutions in Protahunt, so we should Where should we put our minds You said then I said then I will go to see a sci-fi movie Okay you said watching a sci-fi movie is too slow It has become
+
+217
+00:45:11,912 --> 00:45:22,991
+[SPEAKER_00]:I think the first one is for everyone to stop worrying. OK, that is to say, he may be very fast, but maybe not so fast, because he actually can’t do it right now, so he has reached the top, which is a curve.
+
+218
+00:45:16,063 --> 00:45:43,525
+[SPEAKER_01]:Which means it might be fast but maybe not that fast because it can't really do anything wrong with what's going on right now it's hit the top I'm ok to you I know where we're going to conclude right ok it's the iPhone moment but Don't forget that the iPhone moment leads to the Uber moment, right? The Uber moment leads to the moment when governments are besieging Uber.
+
+219
+00:45:25,007 --> 00:45:27,369
+[SPEAKER_00]:He suddenly stopped at this development
+
+220
+00:45:29,816 --> 00:45:30,018
+[SPEAKER_00]:right
+
+221
+00:45:44,198 --> 00:46:11,084
+[SPEAKER_01]:So now a lot of companies are thinking about using AI for hiring and looking at less resumes, right? Use AI to calculate the three hundred and sixty-five balance, use AI to pay salaries, use AI to make picture content for everything, but the US case has come out AI painting There is no way to apply for copyright for the pictures and text that come out. I think there is still room for it, which is not bad. Then
+
+222
+00:46:00,410 --> 00:46:00,512
+[SPEAKER_00]:that
+
+223
+00:46:07,110 --> 00:46:09,978
+[SPEAKER_00]:I think there's still room, but there's still room
+
+224
+00:46:11,636 --> 00:46:30,498
+[SPEAKER_01]:It is possible that the government will come out and say that your company cannot use AI to this extent because AI has bias. If you are a woman, you are likely to be peaceful. I don’t know why the scores are so low. I just said that AI will have a post-Uber moment and then There might be a slight pause because it won't
+
+225
+00:46:30,498 --> 00:46:58,275
+[SPEAKER_00]:But it is still very successful now. I must say that all AIs now emphasize the inclusion of OpenAI itself. He will emphasize that we now have to, for example, look at Stan Altman’s latest blog on OpenAI. He is actually emphasizing that we are in our very I care about the way each version is released, and we are very equal, whether it is from the data or for the extreme point I said, for the safety of human beings
+
+226
+00:46:50,580 --> 00:46:52,773
+[SPEAKER_01]:Use your data for training, etc.
+
+227
+00:46:59,574 --> 00:47:28,529
+[SPEAKER_00]:So they will slowly release and slowly tune. You can see that the disease is actually the same. You can see that he opened up very loudly at the beginning. You can see that the reporter of the New York Times chatted with him, so he shrank completely. OK shrink up, you can only walk seven steps, you can only ask seven questions, you can only walk seven steps, I’m afraid that he will be crooked because he is called Word Solitaire, and the crookedness is very big in the end, so I limit you to seven now Step inside Solitaire, so you will naturally be framed in one place and then slowly learn to change from seven steps to ten steps
+
+228
+00:47:16,365 --> 00:47:17,124
+[SPEAKER_01]:crooked floor right
+
+229
+00:47:29,103 --> 00:47:55,259
+[SPEAKER_00]:Ten steps become a hundred steps, so I think they are now talking about legal compliance, which is beneficial to human beings. All of them are talking about similar concepts, including Meta, including Google, including all AI developed by OpenAI employees. Because I think everyone is also afraid. One is that these AIs will be used by bad people. The second is that these AIs really made mistakes and they don’t know.
+
+230
+00:47:55,721 --> 00:48:02,772
+[SPEAKER_00]:So there's going to be some pauses on these but it's probably artificial to slow it down
+
+231
+00:48:04,830 --> 00:48:16,929
+[SPEAKER_01]:Okay, I think we are only March two, two thousand and twenty-three, March one, March one, March two, March two, so I think many things are really too early. I agree, but I think
+
+232
+00:48:16,743 --> 00:48:30,462
+[SPEAKER_00]:I think I’m just saying we’re not. I reposted that picture that day and many people shared that. There’s a table with a person walking called a slash. We walk a long and gentle slash in the long history and jump up.
+
+233
+00:48:29,754 --> 00:48:40,622
+[SPEAKER_01]:When I came across that point and laughed, it snapped up, right? Qidian Science and Technology Qidian University knows best. I have been saying this point and everyone ignores me, right?
+
+234
+00:48:34,007 --> 00:48:46,190
+[SPEAKER_00]:The starting point of science and technology, I have been saying this point all the time, everyone ignores me, so the starting point university will talk about the point of the starting point, you can explain it again, and you can explain it.
+
+235
+00:48:46,157 --> 00:49:09,748
+[SPEAKER_01]:No, in fact, one of the characteristics of the Exponential Curve is that it is very warped. It will be almost vertical after a certain point. Before that point, there is a deception called Deception. Before the deception period, everyone thought it would be too exaggerated. But if you cross the Knee of Curve, you won’t be able to come back, so you fly up, and you just go up, right, so
+
+236
+00:49:07,706 --> 00:49:36,188
+[SPEAKER_00]:Once it goes up, it will fly up, so personally, I don’t think I can do it, but now there are many futurists, Gao Gao, or many scholars. They have been talking about this matter recently. In fact, they are saying that this prophecy may fall between two thousand and thirty-five and two thousand and fifty-five. That’s the most. It seems to fall in two thousand and forty-five or something. We don’t know if it’s two thousand and forty-five or now two thousand and twenty-three. Will it become faster? I’m not these experts, I’m just going to adopt this matter.
+
+237
+00:49:36,884 --> 00:49:40,950
+[SPEAKER_00]:I don't want to make any predictions but what I can do now I'll do it first
+
+238
+00:49:41,365 --> 00:50:08,389
+[SPEAKER_01]:Well, I think today’s Closing is also very good. That is to say, I do have a bad habit. I also have a bad habit on my show. I like the metaphor show, but I think there are two schools of thought. That is to say, I encourage everyone to listen to this If you have a Takeaway let go of your predictions Let go of your predictions If you think what will happen and what won't happen give yourself at least a month or at least until the end of the year
+
+239
+00:49:49,910 --> 00:49:51,497
+[SPEAKER_00]:no ok it's yours
+
+240
+00:50:08,812 --> 00:50:28,689
+[SPEAKER_01]:Don't presuppose any position. If someone tells you what you can do and what you can't do, be open to it unless you believe his slightly higher positive confidence index. But he also has his business considerations, but I don't, I just want to Doubt what he said to me is to doubt what he said Always to me Always doubt what he said
+
+241
+00:50:15,763 --> 00:50:21,956
+[SPEAKER_00]:Unless St.Ultraman tells you that you can trust his slightly higher positive confidence index but he has his business considerations
+
+242
+00:50:24,065 --> 00:50:31,372
+[SPEAKER_00]:Just to doubt what he said, to me is to doubt what he said to me, to always doubt what he said, but what he said may be a relatively true
+
+243
+00:50:31,153 --> 00:50:49,200
+[SPEAKER_01]:I would definitely doubt any strategic thinker saying anything about what he thinks yes yes but what about someone like me if our millions of followers are more like me than someone who likes to revise forecasts
+
+244
+00:50:37,059 --> 00:50:49,201
+[SPEAKER_00]:It's true so but I think it's better for everyone to let go of all predictions
+
+245
+00:50:49,654 --> 00:51:15,968
+[SPEAKER_00]:This will be the happiest moment for you, because you can constantly revise your predictions. Well, I think we have a small break today, but in the future, we still hope to continue to understand because we think this matter has developed. Very mature, but in fact, I said in many activities, have you played GPT yet?
+
+246
+00:50:49,655 --> 00:51:15,967
+[SPEAKER_01]:This will be the happiest moment for you, because you can constantly revise your predictions. Well, I think we have a small break today, but in the future, we still hope to continue to understand because we think this matter has developed. Very mature, but in fact, I said in many activities, have you played GPT? No, even many people are not so familiar with the combination of the three English words GPT.
+
+247
+00:51:16,465 --> 00:51:39,952
+[SPEAKER_01]:Some people may even have listened to our show but you haven't even applied for an account yet I think it will take a while to develop and when you are still in the process of developing habits it may enter a new era and next you have I have doubted things that will never happen. Many people have also doubted that there will be no starting point. Many people will not doubt that people will not live forever. I will not doubt that there will be a starting point.
+
+248
+00:51:16,465 --> 00:51:45,536
+[SPEAKER_00]:It may have entered a new era, and many people once doubted that there would be no starting point. I even feel that I am in me. If I am now, I am very careful.
+
+249
+00:51:46,167 --> 00:51:52,001
+[SPEAKER_00]:The reason for living is because I think I think it is possible to have the opportunity to see the starting point in my lifetime, so everyone should now
+
+250
+00:51:52,001 --> 00:52:15,542
+[SPEAKER_01]:Take care of your body OK that's a good take away is that I just said you've ever doubted that you won't live forever you've ever doubted that humans can't communicate with thoughts you've ever doubted brain-computer interfaces or help in your home How is it possible for your laundry robot to exist I'm not saying he will but it's something we can let go of for now and think about whether he will or won't
+
+251
+00:52:15,457 --> 00:52:19,490
+[SPEAKER_00]:Someone must scold us and say that we are too optimistic or too much. I just said
+
+252
+00:52:18,495 --> 00:52:48,448
+[SPEAKER_01]:I just said that after the Uber moment or the period when AI hits the wall, we think there will be. There may be a pause, but how many pauses or how long will it be? I think the measurement of the speed must be corrected, just like what we just said. The thing that will be delayed for ten months is now delayed two months ago. You predicted that it will happen in ten months. It will happen in the next two months or even shorter. I can hardly imagine that we have been talking about it from the beginning. because
+
+253
+00:52:24,367 --> 00:52:27,742
+[SPEAKER_00]:Yes, it's just that I'm optimistic about Doton or
+
+254
+00:52:48,127 --> 00:52:52,498
+[SPEAKER_00]:You need to re-educate everyone on the concept of starting point, right?
+
+255
+00:52:52,498 --> 00:53:04,074
+[SPEAKER_01]:If you don’t talk about this at Qidian University, who wants us to set up a second channel Baobo Qidian? Let’s talk about this. We can’t code like this today, and finally call to action. Tell us about it. I personally have one.
+
+256
+00:52:57,645 --> 00:53:21,459
+[SPEAKER_00]:Well, today we can’t code like this, so let’s finally call to action. Let’s talk about it. I personally have a podcast under the media of Inside. We and the other two hosts, Chris and Mia, are the editor-in-chief and senior editor of Inside. We will chat together and because we are talking about AI recently, we will always be AI, then we will invite some guests. The latest episode is with NVIDIA’s Consumer Elite in Taiwan
+
+257
+00:53:21,934 --> 00:53:28,442
+[SPEAKER_00]:Let’s chat together, this is a podcast, and my personal Facebook is Xiao Shanglong, so you can find me by looking for Fox Xiao
+
+258
+00:53:28,442 --> 00:53:51,864
+[SPEAKER_01]:OK, the program is still better than my program, but it is said that I will also go to this Secha and have a chat for a while. You are welcome to pay attention to Secha and FOX’s Facebook and Twitter. We will put the relevant information above in the program description Please also give us the column, encourage us to press like, share and subscribe, let us continue to support and continue to understand the distance between us and AI
+
+259
+00:53:36,069 --> 00:53:38,162
+[SPEAKER_00]:chat for a while
+
+260
+00:53:52,373 --> 00:54:22,341
+[SPEAKER_01]:Thank you for listening to today’s Baobo. My friend said that I am Dr. Ge Junbao. If you like our show, please click to subscribe to the next episode and it will be sent to you automatically. Whether you hear our show on Apple Podcast, Spotify, YouTube or other platforms, please give us Five-star rating, press like and little bell to follow and subscribe. I will throw this text on Chet’s GPT. Is it not that I want him to help me rephrase a version with a higher action rate, right? He helped us revise it and we'll see you next time. Bye bye
+
