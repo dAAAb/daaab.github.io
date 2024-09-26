@@ -19,7 +19,7 @@
     "derequire": "^2.0.6",
     "eslint": "^4.2.0",
     "eslint-config-google": "^0.9.1",
-    "rollup": "^0.37.2",
+    "rollup": "^2.79.2",
     "uglify-es": "^3.0.24",
     "watchify": "^3.8.0"
   },
