@@ -15,15 +15,16 @@ concurrency:
 
 jobs:
   unpack:
-    if: hashFiles('SNS-3DQR/_payload/READY') != '' && hashFiles('SNS-3DQR/_payload/SHA256SUMS') != ''
+    if: hashFiles('SNS-3DQR/_payload/READY') != '' && hashFiles('SNS-3DQR/_payload/URL') != ''
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Unpack payload into SNS-3DQR
+      - name: Download and unpack the demo
         run: |
           set -euo pipefail
           cd SNS-3DQR/_payload
-          cat demo.tar.gz.b64.part* | tr -d '\n' | base64 -d > demo.tar.gz
+          url="$(tr -d '[:space:]' < URL)"
+          curl -sS -L --fail -o demo.tar.gz "$url"
           sha256sum -c SHA256SUMS
           mkdir -p /tmp/sns-dist
           tar -xzf demo.tar.gz -C /tmp/sns-dist
