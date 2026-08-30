@@ -3,7 +3,7 @@ name: unpack-sns-3dqr
 on:
   push:
     paths:
-      - 'SNS-3DQR/_payload/**'
+      - 'SNS-3DQR/_payload/READY'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   unpack:
-    if: hashFiles('SNS-3DQR/_payload/SHA256SUMS') != ''
+    if: hashFiles('SNS-3DQR/_payload/READY') != '' && hashFiles('SNS-3DQR/_payload/SHA256SUMS') != ''
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
