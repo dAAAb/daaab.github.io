@@ -1,6 +1,7 @@
 Tri-Arm reconstruction for the garden viewer.
 Project: https://tnkr.ai/theaiwhisperers-workspace/tri-arm
-That page is login-walled and has no public URDF. This file mounts the
-Apache-2.0 SO-100 meshes onto a box harness and an 8-DOF four-finger hand,
-matching the published description (SO-100 + 4-finger hand + shoulder harness).
+Wearable extra limb: SO-100 on a shoulder harness and belt, plus an
+8-DOF four-finger hand. Tnkr is login-walled and has no public URDF.
+The torso is a headless dress form so it reads as a worn third arm,
+not a humanoid. Arm meshes are Apache-2.0 SO-100.
 SO-100 meshes: public/robots/so100 (TheRobotStudio/SO-ARM100).
