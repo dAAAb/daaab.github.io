@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>草地 QR</title>
     <meta name="description" content="機器人站在風吹的草地上做動作。點一下，從上方看成可掃的立體 QR。" />
-    <script type="module" crossorigin src="./assets/index-BCTDwWOX.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Da7d7_hK.css">
+    <script type="module" crossorigin src="./assets/index-P5-nN9Cs.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B-_XZTrM.css">
   </head>
   <body>
     <div id="app">
@@ -17,8 +17,11 @@
           <p class="kicker" id="kicker">草地 · SO-101</p>
           <h1>草地 QR</h1>
         </header>
-        <p id="hint">點草地，從上方看 QR</p>
-        <p id="action"></p>
+        <div id="dock">
+          <p id="action"></p>
+          <a id="scan-link" hidden target="_blank" rel="noopener noreferrer"></a>
+          <p id="hint">點草地，從上方看 QR</p>
+        </div>
       </div>
       <button id="panel-toggle" type="button">設定</button>
       <aside id="panel">
@@ -38,7 +41,6 @@
             <button type="button" data-value="microduck">Microduck</button>
             <button type="button" data-value="openduck">Open Duck</button>
             <button type="button" data-value="cubebot">CubeBot</button>
-            <button type="button" data-value="triarm">Tri-Arm</button>
           </div>
         </div>
         <div class="field">
