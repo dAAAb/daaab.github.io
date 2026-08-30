@@ -23,11 +23,8 @@ jobs:
         run: |
           set -euo pipefail
           cd SNS-3DQR/_payload
+          cat demo.tar.gz.b64.part* | tr -d '\n' | base64 -d > demo.tar.gz
           sha256sum -c SHA256SUMS
-          cat demo.tar.gz.part* > demo.tar.gz
-          sha256sum -c <<EOF
-          $(grep ' demo.tar.gz$' SHA256SUMS || true)
-          EOF
           mkdir -p /tmp/sns-dist
           tar -xzf demo.tar.gz -C /tmp/sns-dist
           cd ../..
