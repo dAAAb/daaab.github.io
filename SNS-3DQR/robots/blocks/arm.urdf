@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<robot name="block_arm">
+  <material name="print">
+    <color rgba="1.0 0.82 0.12 1"/>
+  </material>
+  <material name="motor">
+    <color rgba="0.12 0.12 0.12 1"/>
+  </material>
+  <material name="accent">
+    <color rgba="0.91 0.36 0.3 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.02" rpy="0 0 0"/>
+      <geometry><box size="0.1 0.1 0.04"/></geometry>
+      <material name="print"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.028" length="0.03"/></geometry>
+      <material name="motor"/>
+    </visual>
+  </link>
+
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0 0 0.03" rpy="0 0 0"/>
+      <geometry><box size="0.055 0.04 0.07"/></geometry>
+      <material name="print"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0.03 0.03" rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.018" length="0.036"/></geometry>
+      <material name="motor"/>
+    </visual>
+  </link>
+
+  <link name="upper_arm_link">
+    <visual>
+      <origin xyz="0 0 0.07" rpy="0 0 0"/>
+      <geometry><box size="0.036 0.032 0.14"/></geometry>
+      <material name="print"/>
+    </visual>
+  </link>
+
+  <link name="lower_arm_link">
+    <visual>
+      <origin xyz="0 0 0.06" rpy="0 0 0"/>
+      <geometry><box size="0.032 0.028 0.12"/></geometry>
+      <material name="print"/>
+    </visual>
+  </link>
+
+  <link name="wrist_link">
+    <visual>
+      <origin xyz="0 0 0.02" rpy="0 0 0"/>
+      <geometry><box size="0.034 0.03 0.04"/></geometry>
+      <material name="motor"/>
+    </visual>
+  </link>
+
+  <link name="gripper_link">
+    <visual>
+      <origin xyz="0 0.012 0.035" rpy="0 0 0"/>
+      <geometry><box size="0.016 0.01 0.07"/></geometry>
+      <material name="print"/>
+    </visual>
+  </link>
+
+  <link name="moving_jaw_so101_v1_link">
+    <visual>
+      <origin xyz="0 0 0.035" rpy="0 0 0"/>
+      <geometry><box size="0.016 0.01 0.07"/></geometry>
+      <material name="accent"/>
+    </visual>
+  </link>
+
+  <link name="gripper_frame_link">
+    <inertial>
+      <mass value="1e-9"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="shoulder_pan" type="revolute">
+    <origin xyz="0 0 0.065" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.92" upper="1.92" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="shoulder_lift" type="revolute">
+    <origin xyz="0 0.02 0.03" rpy="0 0 0"/>
+    <parent link="shoulder_link"/>
+    <child link="upper_arm_link"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.74" upper="1.74" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="elbow_flex" type="revolute">
+    <origin xyz="0 0 0.14" rpy="0 0 0"/>
+    <parent link="upper_arm_link"/>
+    <child link="lower_arm_link"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.69" upper="1.69" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="wrist_flex" type="revolute">
+    <origin xyz="0 0 0.12" rpy="0 0 0"/>
+    <parent link="lower_arm_link"/>
+    <child link="wrist_link"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.66" upper="1.66" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="wrist_roll" type="revolute">
+    <origin xyz="0 0 0.03" rpy="0 0 0"/>
+    <parent link="wrist_link"/>
+    <child link="gripper_link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-2.74" upper="2.84" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="gripper" type="revolute">
+    <origin xyz="0 -0.012 0" rpy="0 0 0"/>
+    <parent link="gripper_link"/>
+    <child link="moving_jaw_so101_v1_link"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.17" upper="1.74" effort="10" velocity="10"/>
+  </joint>
+
+  <joint name="gripper_frame_joint" type="fixed">
+    <origin xyz="0 0 0.075" rpy="0 0 0"/>
+    <parent link="gripper_link"/>
+    <child link="gripper_frame_link"/>
+  </joint>
+</robot>

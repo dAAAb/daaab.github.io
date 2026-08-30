@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<robot name="microduck">
+  <material name="seeed_bearing__configuration__22x16x4_material"><color rgba="0.713725 0.760784 0.8 1"/></material>
+  <material name="right_shell_material"><color rgba="0.8 0.8 0.8 1"/></material>
+  <material name="banana_pcb_locker_material"><color rgba="0.647059 0.647059 0.647059 1"/></material>
+  <material name="trunk_base_material"><color rgba="0.34902 0.376471 0.4 1"/></material>
+  <material name="xl330_material"><color rgba="0.286275 0.286275 0.286275 1"/></material>
+  <material name="power_support_material"><color rgba="0.901961 0.901961 0.901961 1"/></material>
+  <material name="np_f970_material"><color rgba="0.901961 0.901961 0.901961 1"/></material>
+  <material name="left_shell_material"><color rgba="0.8 0.8 0.8 1"/></material>
+  <material name="yaw2roll_material"><color rgba="0.647059 0.647059 0.647059 1"/></material>
+  <material name="bearing_roll_material"><color rgba="0.262745 0.282353 0.301961 1"/></material>
+  <material name="hip_l_material"><color rgba="0.901961 0.901961 0.901961 1"/></material>
+  <material name="upper_leg_left_material"><color rgba="0.866667 0.866667 0.866667 1"/></material>
+  <material name="upper_leg_rigidity_plate_material"><color rgba="0.537255 0.854902 0.827451 1"/></material>
+  <material name="leg_material"><color rgba="0.811765 0.858824 0.898039 1"/></material>
+  <material name="sole_left_material"><color rgba="0.537255 0.854902 0.827451 1"/></material>
+  <material name="foot_left_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <material name="seeed_bearing__configuration_default_material"><color rgba="0.713725 0.760784 0.8 1"/></material>
+  <material name="ankle_left_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <material name="neck_material"><color rgba="0.8 0.8 0.8 1"/></material>
+  <material name="neck_pitch_material"><color rgba="0.34902 0.376471 0.4 1"/></material>
+  <material name="yaw_roll_motion_material"><color rgba="0.768627 0.886275 0.952941 1"/></material>
+  <material name="lens_material"><color rgba="0.262745 0.282353 0.301961 1"/></material>
+  <material name="face_part_material"><color rgba="0.34902 0.376471 0.4 1"/></material>
+  <material name="jaw_soft_material"><color rgba="0.85098 0.756863 0.866667 1"/></material>
+  <material name="motor_support_material"><color rgba="0.262745 0.282353 0.301961 1"/></material>
+  <material name="top_head_shell_material"><color rgba="0.901961 0.901961 0.901961 1"/></material>
+  <material name="elec_rpi_robot_hat_pcb_material"><color rgba="0.313725 0.486275 0.411765 1"/></material>
+  <material name="soft_mouth_top_material"><color rgba="0.85098 0.756863 0.866667 1"/></material>
+  <material name="noenoeil_material"><color rgba="0.262745 0.282353 0.301961 1"/></material>
+  <material name="jaw_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <material name="bottom_head_shell_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <material name="m12_lens_holder_material"><color rgba="0.262745 0.282353 0.301961 1"/></material>
+  <material name="pcb__raspberry_pi_zero_2_w_material"><color rgba="0.498039 0.498039 0.498039 1"/></material>
+  <material name="speaker_material"><color rgba="0.294118 0.290196 0.290196 1"/></material>
+  <material name="upper_leg_right_material"><color rgba="0.866667 0.866667 0.866667 1"/></material>
+  <material name="ankle_right_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <material name="sole_right_material"><color rgba="0.537255 0.854902 0.827451 1"/></material>
+  <material name="foot_right_material"><color rgba="0.980392 0.713725 0.00392157 1"/></material>
+  <link name="trunk_base">
+    <visual>
+      <origin xyz="0.006 0.0175 -0.005" rpy="-0 0 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.004 -0.0005 -0.0175" rpy="-0 0 1.5707969"/>
+      <geometry><mesh filename="assets/right_shell.stl"/></geometry>
+      <material name="right_shell_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.0042 -0 -0.0175215" rpy="0 0 1.5707969"/>
+      <geometry><mesh filename="assets/banana_pcb_locker.stl"/></geometry>
+      <material name="banana_pcb_locker_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.004 -0 -0.0175" rpy="-0 0 1.5707969"/>
+      <geometry><mesh filename="assets/trunk_base.stl"/></geometry>
+      <material name="trunk_base_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.006 0.0175 0.0115" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.004 -0 -0.0175215" rpy="0 0 1.5707969"/>
+      <geometry><mesh filename="assets/power_support.stl"/></geometry>
+      <material name="power_support_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0359693 0 -0.00385049" rpy="3.1241394 0 -1.5707967"/>
+      <geometry><mesh filename="assets/np_f970.stl"/></geometry>
+      <material name="np_f970_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.006 -0.0175 0.0115" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.004 -0 -0.0175785" rpy="0 -0 1.5707969"/>
+      <geometry><mesh filename="assets/left_shell.stl"/></geometry>
+      <material name="left_shell_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.006 -0.0175 -0.005" rpy="-0 0 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+  </link>
+  <link name="yaw2roll">
+    <visual>
+      <origin xyz="-0.0175 -0.002 0.0125" rpy="3.1415927 0 0"/>
+      <geometry><mesh filename="assets/yaw2roll.stl"/></geometry>
+      <material name="yaw2roll_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0 0.0125" rpy="-3.1415927 0 -1.5707969"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0.0165 0.0125" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0175 -0.002 0.0125" rpy="3.1415927 -0 0"/>
+      <geometry><mesh filename="assets/bearing_roll.stl"/></geometry>
+      <material name="bearing_roll_material"/>
+    </visual>
+  </link>
+  <joint name="left_hip_yaw" type="revolute">
+    <parent link="trunk_base"/><child link="yaw2roll"/>
+    <origin xyz="0.006 0.0175 -0.005" rpy="3.1415927 -0 1.5707969"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.43633231" upper="0.52359878" effort="8" velocity="6"/>
+  </joint>
+  <link name="hip_l">
+    <visual>
+      <origin xyz="0.021 0 -0.0185" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0175 0 -0.0185" rpy="-1.5707969 0 -0"/>
+      <geometry><mesh filename="assets/hip_l.stl"/></geometry>
+      <material name="hip_l_material"/>
+    </visual>
+  </link>
+  <joint name="left_hip_roll" type="revolute">
+    <parent link="yaw2roll"/><child link="hip_l"/>
+    <origin xyz="0 0.0165 0.0125" rpy="-1.5707969 -0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.38397244" upper="0.38397244" effort="8" velocity="6"/>
+  </joint>
+  <link name="upper_leg_left">
+    <visual>
+      <origin xyz="-0 -0 -0.0425" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/upper_leg_left.stl"/></geometry>
+      <material name="upper_leg_left_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.022 0.0357771 0.0125" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 -0 -0.0425" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/upper_leg_rigidity_plate.stl"/></geometry>
+      <material name="upper_leg_rigidity_plate_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.022 0.0357771 -0.004" rpy="0 0 3.1415927"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 -0 0.0125" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+  </link>
+  <joint name="left_hip_pitch" type="revolute">
+    <parent link="hip_l"/><child link="upper_leg_left"/>
+    <origin xyz="0.025 0 -0.0185" rpy="-1.5707963 0 -1.5707963"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="leg">
+    <visual>
+      <origin xyz="-0.022 0.0357771 0.0385" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/leg.stl"/></geometry>
+      <material name="leg_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0.042 -0.0115" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+  </link>
+  <joint name="left_knee" type="revolute">
+    <parent link="upper_leg_left"/><child link="leg"/>
+    <origin xyz="0.022 0.0357771 -0.004" rpy="3.1415927 0 1.5707969"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="ankle_left">
+    <visual>
+      <origin xyz="-0.022 0.00622291 -0.0647" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/sole_left.stl"/></geometry>
+      <material name="sole_left_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.022 0.00622291 -0.0647" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/foot_left.stl"/></geometry>
+      <material name="foot_left_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.0322" rpy="0 -0 3.1415927"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration_default.stl"/></geometry>
+      <material name="seeed_bearing__configuration_default_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.022 0.00622291 -0.0647" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/ankle_left.stl"/></geometry>
+      <material name="ankle_left_material"/>
+    </visual>
+  </link>
+  <joint name="left_ankle" type="revolute">
+    <parent link="leg"/><child link="ankle_left"/>
+    <origin xyz="0 0.042 -0.026" rpy="3.1415927 -0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="neck">
+    <visual>
+      <origin xyz="0.022 0.05 0.028" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/neck.stl"/></geometry>
+      <material name="neck_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.0145" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 -0.05 0.0145" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.022 0.05 0.003" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/neck.stl"/></geometry>
+      <material name="neck_material"/>
+    </visual>
+  </link>
+  <joint name="neck_pitch" type="revolute">
+    <parent link="trunk_base"/><child link="neck"/>
+    <origin xyz="0.026 0.0145 0.0324215" rpy="-1.5707969 0 3.1415927"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.0471976" effort="8" velocity="6"/>
+  </joint>
+  <link name="neck_pitch">
+    <visual>
+      <origin xyz="-0 0.0287931 -0.0145" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/neck_pitch.stl"/></geometry>
+      <material name="neck_pitch_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0.0207931 -0.0145" rpy="1.5707969 0 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+  </link>
+  <joint name="head_pitch" type="revolute">
+    <parent link="neck"/><child link="neck_pitch"/>
+    <origin xyz="0 -0.05 -0" rpy="3.1415927 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="yaw_roll_motion">
+    <visual>
+      <origin xyz="0 0 0.01" rpy="0 -0 1.5707969"/>
+      <geometry><mesh filename="assets/yaw_roll_motion.stl"/></geometry>
+      <material name="yaw_roll_motion_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.0145" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.016 0 0.0145" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.018 0 0.0145" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+  </link>
+  <joint name="head_yaw" type="revolute">
+    <parent link="neck_pitch"/><child link="yaw_roll_motion"/>
+    <origin xyz="-0 0.0186931 -0.0145" rpy="1.5707969 0 -3.1415927"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-2.9670597" upper="2.9670597" effort="8" velocity="6"/>
+  </joint>
+  <link name="jaw_soft">
+    <visual>
+      <origin xyz="0.0155 -9.13778e-05 -0.05548" rpy="-1.5707963 0 -1.5707963"/>
+      <geometry><mesh filename="assets/lens.stl"/></geometry>
+      <material name="lens_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0045 -9.13778e-05 -0.0178" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/face_part.stl"/></geometry>
+      <material name="face_part_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.003 0.0255 -0.018" rpy="0 0 -1.5707969"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0046 0 -0.0179996" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/jaw_soft.stl"/></geometry>
+      <material name="jaw_soft_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0045 0 -0.018" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/motor_support.stl"/></geometry>
+      <material name="motor_support_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0045 -0 -0.018" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/top_head_shell.stl"/></geometry>
+      <material name="top_head_shell_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.0145" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.0032 -0.04 -0.018" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration_default.stl"/></geometry>
+      <material name="seeed_bearing__configuration_default_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.02694 0.0289936 -0.0519" rpy="0 0 -1.5707969"/>
+      <geometry><mesh filename="assets/elec_rpi_robot_hat_pcb.stl"/></geometry>
+      <material name="elec_rpi_robot_hat_pcb_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.00420071 1.7776e-08 -0.0180814" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/soft_mouth_top.stl"/></geometry>
+      <material name="soft_mouth_top_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0045 -9.13778e-05 -0.0178" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/noenoeil.stl"/></geometry>
+      <material name="noenoeil_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0045 0 -0.018" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/jaw.stl"/></geometry>
+      <material name="jaw_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0043 -0 -0.018" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/bottom_head_shell.stl"/></geometry>
+      <material name="bottom_head_shell_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.0155 -9.13778e-05 -0.05558" rpy="-1.5707963 0 -1.5707963"/>
+      <geometry><mesh filename="assets/m12_lens_holder.stl"/></geometry>
+      <material name="m12_lens_holder_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.015435 -1.13778e-05 -0.06001" rpy="-1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/pcb__raspberry_pi_zero_2_w.stl"/></geometry>
+      <material name="pcb__raspberry_pi_zero_2_w_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.01 -0.016786 0.0260226" rpy="1.5707963 0 1.5707963"/>
+      <geometry><mesh filename="assets/speaker.stl"/></geometry>
+      <material name="speaker_material"/>
+    </visual>
+  </link>
+  <joint name="head_roll" type="revolute">
+    <parent link="yaw_roll_motion"/><child link="jaw_soft"/>
+    <origin xyz="-0.0179 0 0.0145" rpy="3.1415927 -1.5707963 3.1415927"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.43633231" upper="0.43633231" effort="8" velocity="6"/>
+  </joint>
+  <link name="bearing_roll">
+    <visual>
+      <origin xyz="-0.0175 -0.002 0.0125" rpy="3.1415927 0 0"/>
+      <geometry><mesh filename="assets/yaw2roll.stl"/></geometry>
+      <material name="yaw2roll_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0 0.0125" rpy="-3.1415927 0 -1.5707969"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0175 -0.002 0.0125" rpy="3.1415927 -0 0"/>
+      <geometry><mesh filename="assets/bearing_roll.stl"/></geometry>
+      <material name="bearing_roll_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0.0165 0.0125" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+  </link>
+  <joint name="right_hip_yaw" type="revolute">
+    <parent link="trunk_base"/><child link="bearing_roll"/>
+    <origin xyz="0.006 -0.0175 -0.005" rpy="3.1415927 0 1.5707969"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.52359878" upper="0.43633231" effort="8" velocity="6"/>
+  </joint>
+  <link name="hip_l_2">
+    <visual>
+      <origin xyz="-0.0175 0 -0.0185" rpy="-1.5707969 -0 0"/>
+      <geometry><mesh filename="assets/hip_l.stl"/></geometry>
+      <material name="hip_l_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.025 0 -0.0185" rpy="1.5707963 0 -1.5707963"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+  </link>
+  <joint name="right_hip_roll" type="revolute">
+    <parent link="bearing_roll"/><child link="hip_l_2"/>
+    <origin xyz="-0 0.0165 0.0125" rpy="1.5707969 0 3.1415927"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.38397244" upper="0.38397244" effort="8" velocity="6"/>
+  </joint>
+  <link name="upper_leg_right">
+    <visual>
+      <origin xyz="-0.022 0.0357771 0.0125" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.022 0.0357771 0" rpy="3.1415927 0 -0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration__22x16x4.stl"/></geometry>
+      <material name="seeed_bearing__configuration__22x16x4_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.0435" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/upper_leg_rigidity_plate.stl"/></geometry>
+      <material name="upper_leg_rigidity_plate_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0 -0.0425" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/upper_leg_right.stl"/></geometry>
+      <material name="upper_leg_right_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0.0125" rpy="0 -1.5707963 0"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+  </link>
+  <joint name="right_hip_pitch" type="revolute">
+    <parent link="hip_l_2"/><child link="upper_leg_right"/>
+    <origin xyz="0.025 0 -0.0185" rpy="-1.5707963 0 -1.5707963"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="leg_2">
+    <visual>
+      <origin xyz="-0.042 0 -0.0115" rpy="3.1415927 -1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/xl330.stl"/></geometry>
+      <material name="xl330_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0357771 -0.022 0.0385" rpy="3.1415927 1.5707963 3.1415927"/>
+      <geometry><mesh filename="assets/leg.stl"/></geometry>
+      <material name="leg_material"/>
+    </visual>
+  </link>
+  <joint name="right_knee" type="revolute">
+    <parent link="upper_leg_right"/><child link="leg_2"/>
+    <origin xyz="-0.022 0.0357771 -0.004" rpy="3.1415927 0 -0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+  <link name="ankle_right">
+    <visual>
+      <origin xyz="0.022 0.00622291 -0.0647" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/ankle_right.stl"/></geometry>
+      <material name="ankle_right_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.022 0.00622291 -0.0647" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/sole_right.stl"/></geometry>
+      <material name="sole_right_material"/>
+    </visual>
+    <visual>
+      <origin xyz="-0 0 -0.0292" rpy="3.1415927 0 -0"/>
+      <geometry><mesh filename="assets/seeed_bearing__configuration_default.stl"/></geometry>
+      <material name="seeed_bearing__configuration_default_material"/>
+    </visual>
+    <visual>
+      <origin xyz="0.022 0.00622291 -0.0647" rpy="0 1.5707963 0"/>
+      <geometry><mesh filename="assets/foot_right.stl"/></geometry>
+      <material name="foot_right_material"/>
+    </visual>
+  </link>
+  <joint name="right_ankle" type="revolute">
+    <parent link="leg_2"/><child link="ankle_right"/>
+    <origin xyz="-0.042 0 -0.026" rpy="-3.1415927 0 1.5707969"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5707963" upper="1.5707963" effort="8" velocity="6"/>
+  </joint>
+</robot>

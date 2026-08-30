@@ -1,0 +1,5 @@
+Microduck visual model converted from MJCF (robot_walk.xml)
+Source: https://github.com/pollen-robotics/microduck_rl
+Project: https://github.com/pollen-robotics/microduck
+Apache-2.0 (see LICENSE)
+Collision geoms and the freejoint were dropped so urdf-loader can show the duck.

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>草地 QR</title>
+    <meta name="description" content="機器人站在風吹的草地上做動作。點一下，從上方看成可掃的立體 QR。" />
+    <script type="module" crossorigin src="./assets/index-Do0P6WHZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Da7d7_hK.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="stage"></canvas>
+      <div id="hud" aria-live="polite">
+        <header>
+          <p class="kicker" id="kicker">草地 · SO-101</p>
+          <h1>草地 QR</h1>
+        </header>
+        <p id="hint">點草地，從上方看 QR</p>
+        <p id="action"></p>
+      </div>
+      <button id="panel-toggle" type="button">設定</button>
+      <aside id="panel">
+        <form id="url-form">
+          <label for="url-input">QR 網址</label>
+          <div class="row">
+            <input id="url-input" type="url" name="url" inputmode="url" autocomplete="url" spellcheck="false" />
+            <button type="submit">生成</button>
+          </div>
+        </form>
+        <div class="field">
+          <span>機器人</span>
+          <div class="chips" data-chips="arm">
+            <button type="button" data-value="so101">SO-101</button>
+            <button type="button" data-value="so100">SO-100</button>
+            <button type="button" data-value="blocks">積木</button>
+            <button type="button" data-value="microduck">Microduck</button>
+            <button type="button" data-value="openduck">Open Duck</button>
+            <button type="button" data-value="cubebot">CubeBot</button>
+            <button type="button" data-value="triarm">Tri-Arm</button>
+          </div>
+        </div>
+        <div class="field">
+          <span>草地</span>
+          <div class="chips" data-chips="grass">
+            <button type="button" data-value="spring">春</button>
+            <button type="button" data-value="summer">夏</button>
+            <button type="button" data-value="autumn">秋</button>
+            <button type="button" data-value="dusk">暮</button>
+          </div>
+        </div>
+        <div class="field">
+          <label for="density">密度</label>
+          <input id="density" type="range" min="0.3" max="1" step="0.05" />
+        </div>
+        <div class="field">
+          <span>風</span>
+          <div class="chips" data-chips="wind">
+            <button type="button" data-value="1">有</button>
+            <button type="button" data-value="0">無</button>
+          </div>
+        </div>
+        <div class="field">
+          <span>天色</span>
+          <div class="chips" data-chips="sky">
+            <button type="button" data-value="morning">晨</button>
+            <button type="button" data-value="noon">午</button>
+            <button type="button" data-value="evening">晚</button>
+            <button type="button" data-value="night">夜</button>
+          </div>
+        </div>
+        <div class="field">
+          <span>蝴蝶</span>
+          <div class="chips" data-chips="bugs">
+            <button type="button" data-value="1">有</button>
+            <button type="button" data-value="0">無</button>
+          </div>
+        </div>
+        <div class="field">
+          <span>花</span>
+          <div class="chips" data-chips="flowers">
+            <button type="button" data-value="1">有</button>
+            <button type="button" data-value="0">無</button>
+          </div>
+        </div>
+      </aside>
+      <div id="loader">
+        <div class="spinner" aria-hidden="true"></div>
+        <p id="loader-text">正在把機器人放到草地上…</p>
+      </div>
+      <div id="error" hidden>
+        <p id="error-text"></p>
+      </div>
+    </div>
+  </body>
+</html>

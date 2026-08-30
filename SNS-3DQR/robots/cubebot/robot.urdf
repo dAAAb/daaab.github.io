@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<robot name="cubebot">
+  <material name="shell"><color rgba="0.98 0.72 0.12 1"/></material>
+  <material name="joint"><color rgba="0.12 0.12 0.12 1"/></material>
+  <material name="foot"><color rgba="0.16 0.16 0.16 1"/></material>
+  <link name="body">
+    <visual><origin xyz="0 0 0"/><geometry><box size="0.0925 0.055 0.077"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="fl_hip">
+    <visual><origin xyz="0 0 0"/><geometry><cylinder radius="0.012" length="0.022"/></geometry><material name="joint"/></visual>
+  </link>
+  <link name="fl_thigh">
+    <visual><origin xyz="0 -0.024 0"/><geometry><box size="0.016 0.048 0.016"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="fl_shin">
+    <visual><origin xyz="0 -0.0464 0"/><geometry><box size="0.014 0.0928 0.014"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="fl_foot">
+    <visual><origin xyz="0.012 0 0"/><geometry><box size="0.032 0.01 0.02"/></geometry><material name="foot"/></visual>
+  </link>
+  <joint name="fl_hip_yaw" type="revolute">
+    <parent link="body"/><child link="fl_hip"/>
+    <origin xyz="0.04625 0 -0.0385" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/><limit lower="-1.6" upper="1.6" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fl_hip_pitch" type="revolute">
+    <parent link="fl_hip"/><child link="fl_thigh"/>
+    <origin xyz="0.025 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.4" upper="2.4" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fl_knee" type="revolute">
+    <parent link="fl_thigh"/><child link="fl_shin"/>
+    <origin xyz="0 -0.048 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.6" upper="0.2" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fl_foot" type="fixed">
+    <parent link="fl_shin"/><child link="fl_foot"/>
+    <origin xyz="0 -0.0928 0"/>
+  </joint>
+  <link name="fr_hip">
+    <visual><origin xyz="0 0 0"/><geometry><cylinder radius="0.012" length="0.022"/></geometry><material name="joint"/></visual>
+  </link>
+  <link name="fr_thigh">
+    <visual><origin xyz="0 -0.024 0"/><geometry><box size="0.016 0.048 0.016"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="fr_shin">
+    <visual><origin xyz="0 -0.0464 0"/><geometry><box size="0.014 0.0928 0.014"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="fr_foot">
+    <visual><origin xyz="0.012 0 0"/><geometry><box size="0.032 0.01 0.02"/></geometry><material name="foot"/></visual>
+  </link>
+  <joint name="fr_hip_yaw" type="revolute">
+    <parent link="body"/><child link="fr_hip"/>
+    <origin xyz="0.04625 0 0.0385" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/><limit lower="-1.6" upper="1.6" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fr_hip_pitch" type="revolute">
+    <parent link="fr_hip"/><child link="fr_thigh"/>
+    <origin xyz="-0.025 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.4" upper="2.4" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fr_knee" type="revolute">
+    <parent link="fr_thigh"/><child link="fr_shin"/>
+    <origin xyz="0 -0.048 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.6" upper="0.2" effort="6" velocity="8"/>
+  </joint>
+  <joint name="fr_foot" type="fixed">
+    <parent link="fr_shin"/><child link="fr_foot"/>
+    <origin xyz="0 -0.0928 0"/>
+  </joint>
+  <link name="bl_hip">
+    <visual><origin xyz="0 0 0"/><geometry><cylinder radius="0.012" length="0.022"/></geometry><material name="joint"/></visual>
+  </link>
+  <link name="bl_thigh">
+    <visual><origin xyz="0 -0.024 0"/><geometry><box size="0.016 0.048 0.016"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="bl_shin">
+    <visual><origin xyz="0 -0.0464 0"/><geometry><box size="0.014 0.0928 0.014"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="bl_foot">
+    <visual><origin xyz="0.012 0 0"/><geometry><box size="0.032 0.01 0.02"/></geometry><material name="foot"/></visual>
+  </link>
+  <joint name="bl_hip_yaw" type="revolute">
+    <parent link="body"/><child link="bl_hip"/>
+    <origin xyz="-0.04625 0 -0.0385" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/><limit lower="-1.6" upper="1.6" effort="6" velocity="8"/>
+  </joint>
+  <joint name="bl_hip_pitch" type="revolute">
+    <parent link="bl_hip"/><child link="bl_thigh"/>
+    <origin xyz="0.025 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.4" upper="2.4" effort="6" velocity="8"/>
+  </joint>
+  <joint name="bl_knee" type="revolute">
+    <parent link="bl_thigh"/><child link="bl_shin"/>
+    <origin xyz="0 -0.048 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.6" upper="0.2" effort="6" velocity="8"/>
+  </joint>
+  <joint name="bl_foot" type="fixed">
+    <parent link="bl_shin"/><child link="bl_foot"/>
+    <origin xyz="0 -0.0928 0"/>
+  </joint>
+  <link name="br_hip">
+    <visual><origin xyz="0 0 0"/><geometry><cylinder radius="0.012" length="0.022"/></geometry><material name="joint"/></visual>
+  </link>
+  <link name="br_thigh">
+    <visual><origin xyz="0 -0.024 0"/><geometry><box size="0.016 0.048 0.016"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="br_shin">
+    <visual><origin xyz="0 -0.0464 0"/><geometry><box size="0.014 0.0928 0.014"/></geometry><material name="shell"/></visual>
+  </link>
+  <link name="br_foot">
+    <visual><origin xyz="0.012 0 0"/><geometry><box size="0.032 0.01 0.02"/></geometry><material name="foot"/></visual>
+  </link>
+  <joint name="br_hip_yaw" type="revolute">
+    <parent link="body"/><child link="br_hip"/>
+    <origin xyz="-0.04625 0 0.0385" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/><limit lower="-1.6" upper="1.6" effort="6" velocity="8"/>
+  </joint>
+  <joint name="br_hip_pitch" type="revolute">
+    <parent link="br_hip"/><child link="br_thigh"/>
+    <origin xyz="-0.025 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.4" upper="2.4" effort="6" velocity="8"/>
+  </joint>
+  <joint name="br_knee" type="revolute">
+    <parent link="br_thigh"/><child link="br_shin"/>
+    <origin xyz="0 -0.048 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/><limit lower="-2.6" upper="0.2" effort="6" velocity="8"/>
+  </joint>
+  <joint name="br_foot" type="fixed">
+    <parent link="br_shin"/><child link="br_foot"/>
+    <origin xyz="0 -0.0928 0"/>
+  </joint>
+</robot>

@@ -1,0 +1,5 @@
+CubeBot kinematics rebuilt from the published Python controller
+https://github.com/VGlukhov-git/CubeBot
+https://tnkr.ai/vladimirroboticss-workspace/cubebot
+Body 92.5 x 77 mm, shin A=92.8 mm, thigh B=48 mm, hip C=25 mm.
+That repo ships servo code and walk points, not a URDF, so this visual is a box reconstruction.
